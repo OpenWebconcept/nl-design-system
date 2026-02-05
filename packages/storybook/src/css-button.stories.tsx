@@ -2,8 +2,8 @@
 
 import type { Meta, StoryObj } from '@storybook/react';
 import readme from '@openwebconcept/components-css/button/README.md?raw';
-import { PropsWithChildren } from 'react';
 import '@openwebconcept/components-css/button/index.scss';
+import { PropsWithChildren } from 'react';
 
 const Button = ({ children }: PropsWithChildren) => (
   <button className="example-button" type="button">
@@ -33,19 +33,6 @@ const meta = {
       description: {
         component: readme,
       },
-    },
-    themes: {
-      default: 'Gouda',
-      list: [
-        {
-          name: "Ridderkerk",
-          class: "theme:ridderkerk"
-        },
-        {
-          name: "Gouda",
-          class: "theme:gouda"
-        }
-      ]
     },
   },
   tags: ['autodocs'],

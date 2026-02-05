@@ -1,0 +1,75 @@
+{
+  "example": {
+    "button": {
+      "background-color": {
+        "value": "{barendrecht.color.primary}"
+      },
+      "color": {
+        "value": "{barendrecht.color.white}"
+      },
+      "border-color": {
+        "value": "{barendrecht.color.primary}"
+      },
+      "border-width": {
+        "value": "1px"
+      },
+      "border-radius": {
+        "value": "4px"
+      },
+      "padding-block": {
+        "value": "8px"
+      },
+      "padding-inline": {
+        "value": "16px"
+      },
+      "font-size": {
+        "value": "16px"
+      },
+      "font-weight": {
+        "value": "600"
+      },
+      "hover": {
+        "background-color": {
+          "value": "#a61117"
+        }
+      },
+      "active": {
+        "background-color": {
+          "value": "#7d0d11"
+        }
+      },
+      "focus": {
+        "outline-color": {
+          "value": "{barendrecht.focus.outline-color}"
+        },
+        "outline-width": {
+          "value": "{barendrecht.focus.outline-width}"
+        },
+        "outline-offset": {
+          "value": "{barendrecht.focus.outline-offset}"
+        }
+      }
+    }
+  },
+  "barendrecht": {
+    "color": {
+      "primary": {
+        "value": "#d4161c"
+      },
+      "white": {
+        "value": "#ffffff"
+      }
+    },
+    "focus": {
+      "outline-color": {
+        "value": "{barendrecht.color.primary}"
+      },
+      "outline-width": {
+        "value": "2px"
+      },
+      "outline-offset": {
+        "value": "2px"
+      }
+    }
+  }
+}

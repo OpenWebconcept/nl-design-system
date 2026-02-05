@@ -1,0 +1,75 @@
+{
+  "example": {
+    "button": {
+      "background-color": {
+        "value": "{fryske-marren.color.primary}"
+      },
+      "color": {
+        "value": "{fryske-marren.color.white}"
+      },
+      "border-color": {
+        "value": "{fryske-marren.color.primary}"
+      },
+      "border-width": {
+        "value": "1px"
+      },
+      "border-radius": {
+        "value": "4px"
+      },
+      "padding-block": {
+        "value": "8px"
+      },
+      "padding-inline": {
+        "value": "16px"
+      },
+      "font-size": {
+        "value": "16px"
+      },
+      "font-weight": {
+        "value": "600"
+      },
+      "hover": {
+        "background-color": {
+          "value": "#003d75"
+        }
+      },
+      "active": {
+        "background-color": {
+          "value": "#002f5a"
+        }
+      },
+      "focus": {
+        "outline-color": {
+          "value": "{fryske-marren.focus.outline-color}"
+        },
+        "outline-width": {
+          "value": "{fryske-marren.focus.outline-width}"
+        },
+        "outline-offset": {
+          "value": "{fryske-marren.focus.outline-offset}"
+        }
+      }
+    }
+  },
+  "fryske-marren": {
+    "color": {
+      "primary": {
+        "value": "#00539f"
+      },
+      "white": {
+        "value": "#ffffff"
+      }
+    },
+    "focus": {
+      "outline-color": {
+        "value": "{fryske-marren.color.primary}"
+      },
+      "outline-width": {
+        "value": "2px"
+      },
+      "outline-offset": {
+        "value": "2px"
+      }
+    }
+  }
+}

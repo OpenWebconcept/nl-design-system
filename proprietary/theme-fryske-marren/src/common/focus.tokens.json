@@ -1,0 +1,18 @@
+{
+  "fryske-marren": {
+    "focus": {
+      "outline-color": {
+        "value": "{fryske-marren.color.primary}"
+      },
+      "outline-width": {
+        "value": "2px"
+      },
+      "outline-style": {
+        "value": "solid"
+      },
+      "outline-offset": {
+        "value": "2px"
+      }
+    }
+  }
+}

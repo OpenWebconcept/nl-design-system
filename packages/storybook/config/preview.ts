@@ -1,5 +1,6 @@
-import '@openwebconcept/design-tokens/dist/index.css';
-import '@openwebconcept/font/src/index.scss';
+import '@openwebconcept/theme-barendrecht/dist/theme.css';
+import '@openwebconcept/theme-fryske-marren/dist/theme.css';
+import '@openwebconcept/theme-hoeksche-waard/dist/theme.css';
 import type { Preview } from '@storybook/react';
 import { defineCustomElements } from '@openwebconcept/web-components-stencil/loader/index.js';
 import { withThemeByClassName } from '@storybook/addon-themes';
@@ -11,13 +12,13 @@ const preview: Preview = {
   decorators: [
     ParametersArgsDecorator,
     withThemeByClassName({
-      defaultTheme: 'ridderkerk',
+      defaultTheme: 'barendrecht',
       themes: {
-        'buren': 'theme-buren',
-        'gouda': 'theme-gouda',
-        'ridderkerk': 'theme-ridderkerk'
-      }
-    })
+        barendrecht: 'theme-barendrecht',
+        'fryske-marren': 'theme-fryske-marren',
+        'hoeksche-waard': 'theme-hoeksche-waard',
+      },
+    }),
   ],
   parameters: {
     controls: { expanded: false },

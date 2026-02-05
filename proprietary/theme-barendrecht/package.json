@@ -1,11 +1,13 @@
 {
-  "name": "@openwebconcept/design-tokens",
+  "name": "@openwebconcept/theme-barendrecht",
   "version": "1.0.0-alpha.0",
   "author": "Community for NL Design System",
-  "description": "Example design tokens",
+  "description": "Design tokens for Barendrecht theme",
   "license": "SEE LICENSE IN LICENSE.md",
   "keywords": [
-    "nl-design-system"
+    "nl-design-system",
+    "design-tokens",
+    "barendrecht"
   ],
   "private": true,
   "publishConfig": {
@@ -14,7 +16,7 @@
   "repository": {
     "type": "git+ssh",
     "url": "git@github.com:openwebconcept/nl-design-system.git",
-    "directory": "proprietary/design-tokens"
+    "directory": "proprietary/theme-barendrecht"
   },
   "scripts": {
     "clean": "rimraf dist/",

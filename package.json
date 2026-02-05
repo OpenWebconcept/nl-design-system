@@ -78,8 +78,8 @@
     "update-patch": "npm-check-updates --configFileName .ncurc.patch.cjs",
     "update-minor": "npm-check-updates --configFileName .ncurc.minor.cjs",
     "update-major": "npm-check-updates --configFileName .ncurc.major.cjs",
-    "watch:storybook": "pnpm --filter @openwebconcept/web-components-stencil run build:stencil && pnpm --filter @openwebconcept/design-tokens run build:style-dictionary && pnpm --filter ./packages/storybook run storybook",
-    "watch:style-dictionary": "pnpm --filter @openwebconcept/design-tokens run watch:style-dictionary"
+    "watch:storybook": "pnpm --filter @openwebconcept/web-components-stencil run build:stencil && pnpm --filter @openwebconcept/theme-* run build:style-dictionary && pnpm --filter ./packages/storybook run storybook",
+    "watch:style-dictionary": "pnpm --filter @openwebconcept/theme-* run watch:style-dictionary"
   },
   "dependencies": {
     "http-server": "14.1.1"
