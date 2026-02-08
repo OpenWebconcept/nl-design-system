@@ -1,0 +1,18 @@
+{
+  "gouda": {
+    "focus": {
+      "outline-color": {
+        "value": "{gouda.color.primary}"
+      },
+      "outline-width": {
+        "value": "2px"
+      },
+      "outline-style": {
+        "value": "solid"
+      },
+      "outline-offset": {
+        "value": "2px"
+      }
+    }
+  }
+}

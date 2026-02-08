@@ -9,7 +9,7 @@
           "destination": "theme.css",
           "format": "css/variables",
           "options": {
-            "selector": ".theme-fryske-marren",
+            "selector": ".theme-de-fryske-marren",
             "outputReferences": true
           }
         }

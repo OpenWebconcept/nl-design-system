@@ -1,13 +1,13 @@
 {
-  "name": "@openwebconcept/theme-fryske-marren",
+  "name": "@openwebconcept/theme-noordwijk",
   "version": "1.0.0-alpha.0",
   "author": "Community for NL Design System",
-  "description": "Design tokens for Fryske Marren theme",
+  "description": "Design tokens for Noordwijk theme",
   "license": "SEE LICENSE IN LICENSE.md",
   "keywords": [
     "nl-design-system",
     "design-tokens",
-    "fryske-marren"
+    "noordwijk"
   ],
   "private": true,
   "publishConfig": {
@@ -16,19 +16,24 @@
   "repository": {
     "type": "git+ssh",
     "url": "git@github.com:openwebconcept/nl-design-system.git",
-    "directory": "proprietary/theme-fryske-marren"
+    "directory": "proprietary/theme-noordwijk"
   },
   "scripts": {
     "clean": "rimraf dist/",
     "build": "pnpm run --sequential '/^build:.+$/'",
     "build:clean": "pnpm run clean",
     "build:style-dictionary": "style-dictionary build --config ./style-dictionary.config.json",
+    "build:index": "sass src/index.scss dist/index.css --no-source-map",
     "watch": "pnpm run '/^watch:.+$/'",
     "watch:style-dictionary": "chokidar --follow-symlinks --initial --command 'pnpm run build' 'src/**/*.tokens.json'"
+  },
+  "dependencies": {
+    "@fontsource/roboto": "5.1.0"
   },
   "devDependencies": {
     "chokidar-cli": "3.0.0",
     "rimraf": "6.0.1",
+    "sass": "1.89.2",
     "style-dictionary": "3.9.2"
   }
 }

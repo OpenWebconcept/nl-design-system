@@ -1,0 +1,27 @@
+{
+  "fryske-marren": {
+    "typography": {
+      "font-family": {
+        "sans": {
+          "value": "Roboto, sans-serif"
+        }
+      },
+      "font-size": {
+        "sm": {
+          "value": "clamp(0.8255rem, 0.7822rem + 0.1845vw, 0.9091rem)"
+        },
+        "base": {
+          "value": "clamp(0.875rem, 0.8103rem + 0.2759vw, 1rem)"
+        },
+        "xl": {
+          "value": "clamp(0.9275rem, 0.8383rem + 0.3807vw, 1.1rem)"
+        }
+      },
+      "line-height": {
+        "base": {
+          "value": "1.75"
+        }
+      }
+    }
+  }
+}

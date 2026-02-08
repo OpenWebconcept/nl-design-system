@@ -1,13 +1,13 @@
 {
-  "name": "@openwebconcept/theme-hoeksche-waard",
+  "name": "@openwebconcept/theme-de-fryske-marren",
   "version": "1.0.0-alpha.0",
   "author": "Community for NL Design System",
-  "description": "Design tokens for Hoeksche Waard theme",
+  "description": "Design tokens for De Fryske Marren theme",
   "license": "SEE LICENSE IN LICENSE.md",
   "keywords": [
     "nl-design-system",
     "design-tokens",
-    "hoeksche-waard"
+    "de-fryske-marren"
   ],
   "private": true,
   "publishConfig": {
@@ -16,7 +16,7 @@
   "repository": {
     "type": "git+ssh",
     "url": "git@github.com:openwebconcept/nl-design-system.git",
-    "directory": "proprietary/theme-hoeksche-waard"
+    "directory": "proprietary/theme-de-fryske-marren"
   },
   "scripts": {
     "clean": "rimraf dist/",
@@ -28,7 +28,7 @@
     "watch:style-dictionary": "chokidar --follow-symlinks --initial --command 'pnpm run build' 'src/**/*.tokens.json'"
   },
   "dependencies": {
-    "@fontsource/ubuntu": "5.1.0"
+    "@fontsource/roboto": "5.1.0"
   },
   "devDependencies": {
     "chokidar-cli": "3.0.0",

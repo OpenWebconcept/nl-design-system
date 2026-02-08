@@ -1,6 +1,8 @@
-import '@openwebconcept/theme-barendrecht/dist/theme.css';
-import '@openwebconcept/theme-fryske-marren/dist/theme.css';
-import '@openwebconcept/theme-hoeksche-waard/dist/theme.css';
+import '@openwebconcept/theme-barendrecht/dist/index.css';
+import '@openwebconcept/theme-de-fryske-marren/dist/index.css';
+import '@openwebconcept/theme-gouda/dist/index.css';
+import '@openwebconcept/theme-hoeksche-waard/dist/index.css';
+import '@openwebconcept/theme-noordwijk/dist/index.css';
 import type { Preview } from '@storybook/react';
 import { defineCustomElements } from '@openwebconcept/web-components-stencil/loader/index.js';
 import { withThemeByClassName } from '@storybook/addon-themes';
@@ -15,8 +17,10 @@ const preview: Preview = {
       defaultTheme: 'barendrecht',
       themes: {
         barendrecht: 'theme-barendrecht',
-        'fryske-marren': 'theme-fryske-marren',
+        'de-fryske-marren': 'theme-de-fryske-marren',
+        gouda: 'theme-gouda',
         'hoeksche-waard': 'theme-hoeksche-waard',
+        noordwijk: 'theme-noordwijk',
       },
     }),
   ],

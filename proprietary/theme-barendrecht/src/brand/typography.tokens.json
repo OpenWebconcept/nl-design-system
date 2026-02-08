@@ -1,0 +1,27 @@
+{
+  "barendrecht": {
+    "typography": {
+      "font-family": {
+        "sans": {
+          "value": "Lato, sans-serif"
+        }
+      },
+      "font-size": {
+        "sm": {
+          "value": "clamp(0.875rem, 0.8103rem + 0.2759vw, 1rem)"
+        },
+        "base": {
+          "value": "clamp(0.875rem, 0.778rem + 0.4138vw, 1.0625rem)"
+        },
+        "xl": {
+          "value": "clamp(0.9275rem, 0.8383rem + 0.3807vw, 1.1rem)"
+        }
+      },
+      "line-height": {
+        "base": {
+          "value": "1.75"
+        }
+      }
+    }
+  }
+}

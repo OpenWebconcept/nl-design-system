@@ -2,13 +2,13 @@
   "example": {
     "button": {
       "background-color": {
-        "value": "{barendrecht.color.primary}"
+        "value": "{noordwijk.color.primary}"
       },
       "color": {
-        "value": "{barendrecht.color.white}"
+        "value": "{noordwijk.color.white}"
       },
       "border-color": {
-        "value": "{barendrecht.color.primary}"
+        "value": "{noordwijk.color.primary}"
       },
       "border-width": {
         "value": "1px"
@@ -30,24 +30,45 @@
       },
       "hover": {
         "background-color": {
-          "value": "#04396b"
+          "value": "#346287"
         }
       },
       "active": {
         "background-color": {
-          "value": "#021f3a"
+          "value": "#2a5070"
         }
       },
       "focus": {
         "outline-color": {
-          "value": "{barendrecht.focus.outline-color}"
+          "value": "{noordwijk.focus.outline-color}"
         },
         "outline-width": {
-          "value": "{barendrecht.focus.outline-width}"
+          "value": "{noordwijk.focus.outline-width}"
         },
         "outline-offset": {
-          "value": "{barendrecht.focus.outline-offset}"
+          "value": "{noordwijk.focus.outline-offset}"
         }
+      }
+    }
+  },
+  "noordwijk": {
+    "color": {
+      "primary": {
+        "value": "#417aa9"
+      },
+      "white": {
+        "value": "#ffffff"
+      }
+    },
+    "focus": {
+      "outline-color": {
+        "value": "{noordwijk.color.primary}"
+      },
+      "outline-width": {
+        "value": "2px"
+      },
+      "outline-offset": {
+        "value": "2px"
       }
     }
   }

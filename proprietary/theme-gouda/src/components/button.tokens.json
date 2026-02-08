@@ -2,13 +2,13 @@
   "example": {
     "button": {
       "background-color": {
-        "value": "{barendrecht.color.primary}"
+        "value": "{gouda.color.primary}"
       },
       "color": {
-        "value": "{barendrecht.color.white}"
+        "value": "{gouda.color.white}"
       },
       "border-color": {
-        "value": "{barendrecht.color.primary}"
+        "value": "{gouda.color.primary}"
       },
       "border-width": {
         "value": "1px"
@@ -30,24 +30,45 @@
       },
       "hover": {
         "background-color": {
-          "value": "#04396b"
+          "value": "#ba0c13"
         }
       },
       "active": {
         "background-color": {
-          "value": "#021f3a"
+          "value": "#9a0a10"
         }
       },
       "focus": {
         "outline-color": {
-          "value": "{barendrecht.focus.outline-color}"
+          "value": "{gouda.focus.outline-color}"
         },
         "outline-width": {
-          "value": "{barendrecht.focus.outline-width}"
+          "value": "{gouda.focus.outline-width}"
         },
         "outline-offset": {
-          "value": "{barendrecht.focus.outline-offset}"
+          "value": "{gouda.focus.outline-offset}"
         }
+      }
+    }
+  },
+  "gouda": {
+    "color": {
+      "primary": {
+        "value": "#ea0f18"
+      },
+      "white": {
+        "value": "#ffffff"
+      }
+    },
+    "focus": {
+      "outline-color": {
+        "value": "{gouda.color.primary}"
+      },
+      "outline-width": {
+        "value": "2px"
+      },
+      "outline-offset": {
+        "value": "2px"
       }
     }
   }

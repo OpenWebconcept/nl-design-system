@@ -23,12 +23,17 @@
     "build": "pnpm run --sequential '/^build:.+$/'",
     "build:clean": "pnpm run clean",
     "build:style-dictionary": "style-dictionary build --config ./style-dictionary.config.json",
+    "build:index": "sass src/index.scss dist/index.css --no-source-map",
     "watch": "pnpm run '/^watch:.+$/'",
     "watch:style-dictionary": "chokidar --follow-symlinks --initial --command 'pnpm run build' 'src/**/*.tokens.json'"
+  },
+  "dependencies": {
+    "@fontsource/lato": "5.1.0"
   },
   "devDependencies": {
     "chokidar-cli": "3.0.0",
     "rimraf": "6.0.1",
+    "sass": "1.89.2",
     "style-dictionary": "3.9.2"
   }
 }
