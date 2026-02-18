@@ -13,11 +13,11 @@
     "url": "git@github.com:openwebconcept/nl-design-system.git",
     "directory": "."
   },
-  "packageManager": "pnpm@10.28.2",
+  "packageManager": "pnpm@10.30.0",
   "engines": {
     "//": "Update @types/node to match the highest node version here",
     "node": ">=24",
-    "pnpm": "^10.16.0"
+    "pnpm": "^10.30.0"
   },
   "workspaces": [
     "./packages/*",
