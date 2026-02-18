@@ -1,4 +1,5 @@
 {
+  "usesDtcg": true,
   "source": ["./src/**/tokens.json", "./src/**/*.tokens.json"],
   "include": [
     "node_modules/@openwebconcept/design-tokens/src/**/*.tokens.json",
@@ -6,7 +7,7 @@
   ],
   "platforms": {
     "css": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4"],
+      "transforms": ["name/kebab", "color/hsl-4"],
       "buildPath": "dist/",
       "files": [
         {
@@ -20,7 +21,7 @@
       ]
     },
     "scss": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4"],
+      "transforms": ["name/kebab", "color/hsl-4"],
       "buildPath": "dist/",
       "files": [
         {
@@ -33,7 +34,7 @@
       ]
     },
     "js": {
-      "transforms": ["attribute/cti", "name/cti/camel", "color/hsl-4"],
+      "transforms": ["name/camel", "color/hsl-4"],
       "buildPath": "dist/",
       "files": [
         {
@@ -43,7 +44,7 @@
       ]
     },
     "json": {
-      "transforms": ["attribute/cti", "name/cti/camel", "color/hsl-4"],
+      "transforms": ["name/camel", "color/hsl-4"],
       "buildPath": "dist/",
       "files": [
         {

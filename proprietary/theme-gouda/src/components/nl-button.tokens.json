@@ -1,44 +1,44 @@
 {
   "nl": {
     "button": {
-      "border-radius": { "value": "0px" },
+      "border-radius": { "$value": "0px" },
       "default": {
         "hover": {
-          "background-color": { "value": "#c60e13" },
-          "border-color": { "value": "#ba0d12" }
+          "background-color": { "$value": "#c60e13" },
+          "border-color": { "$value": "#ba0d12" }
         },
         "active": {
-          "background-color": { "value": "#ba0d12" },
-          "border-color": { "value": "#ae0c11" }
+          "background-color": { "$value": "#ba0d12" },
+          "border-color": { "$value": "#ae0c11" }
         },
         "focus": {
-          "background-color": { "value": "#c60e13" },
-          "border-color": { "value": "#ba0d12" }
+          "background-color": { "$value": "#c60e13" },
+          "border-color": { "$value": "#ba0d12" }
         }
       },
       "primary": {
         "hover": {
-          "background-color": { "value": "#c60e13" },
-          "border-color": { "value": "#ba0d12" }
+          "background-color": { "$value": "#c60e13" },
+          "border-color": { "$value": "#ba0d12" }
         },
         "active": {
-          "background-color": { "value": "#ba0d12" },
-          "border-color": { "value": "#ae0c11" }
+          "background-color": { "$value": "#ba0d12" },
+          "border-color": { "$value": "#ae0c11" }
         }
       },
       "secondary": {
         "hover": {
-          "background-color": { "value": "#c60e13" },
-          "border-color": { "value": "#ba0d12" }
+          "background-color": { "$value": "#c60e13" },
+          "border-color": { "$value": "#ba0d12" }
         },
         "active": {
-          "background-color": { "value": "#ba0d12" },
-          "border-color": { "value": "#ae0c11" }
+          "background-color": { "$value": "#ba0d12" },
+          "border-color": { "$value": "#ae0c11" }
         }
       },
       "focus": {
-        "background-color": { "value": "#c60e13" },
-        "border-color": { "value": "#ba0d12" }
+        "background-color": { "$value": "#c60e13" },
+        "border-color": { "$value": "#ba0d12" }
       }
     }
   }

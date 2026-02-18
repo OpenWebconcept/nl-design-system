@@ -1,68 +1,68 @@
 {
   "nl": {
     "button": {
-      "border-radius": { "value": "5px" },
-      "font-family": { "value": "Roboto Slab, serif" },
-      "padding-block-start": { "value": "1.4em" },
-      "padding-block-end": { "value": "1.4em" },
-      "padding-inline-start": { "value": "1.8em" },
-      "padding-inline-end": { "value": "1.8em" },
+      "border-radius": { "$value": "5px" },
+      "font-family": { "$value": "Roboto Slab, serif" },
+      "padding-block-start": { "$value": "1.4em" },
+      "padding-block-end": { "$value": "1.4em" },
+      "padding-inline-start": { "$value": "1.8em" },
+      "padding-inline-end": { "$value": "1.8em" },
       "default": {
-        "font-size": { "value": ".9rem" },
-        "font-weight": { "value": "500" },
+        "font-size": { "$value": ".9rem" },
+        "font-weight": { "$value": "500" },
         "hover": {
-          "background-color": { "value": "#221a5a" },
-          "border-color": { "value": "#221a5a" }
+          "background-color": { "$value": "#221a5a" },
+          "border-color": { "$value": "#221a5a" }
         },
         "active": {
-          "background-color": { "value": "#221a5a" },
-          "border-color": { "value": "#221a5a" }
+          "background-color": { "$value": "#221a5a" },
+          "border-color": { "$value": "#221a5a" }
         },
         "focus": {
-          "background-color": { "value": "#221a5a" },
-          "border-color": { "value": "#221a5a" }
+          "background-color": { "$value": "#221a5a" },
+          "border-color": { "$value": "#221a5a" }
         }
       },
       "primary": {
-        "background-color": { "value": "#2c2276" },
-        "border-color": { "value": "#2c2276" },
-        "font-size": { "value": ".9rem" },
-        "font-weight": { "value": "500" },
+        "background-color": { "$value": "#2c2276" },
+        "border-color": { "$value": "#2c2276" },
+        "font-size": { "$value": ".9rem" },
+        "font-weight": { "$value": "500" },
         "hover": {
-          "background-color": { "value": "#221a5a" },
-          "border-color": { "value": "#221a5a" }
+          "background-color": { "$value": "#221a5a" },
+          "border-color": { "$value": "#221a5a" }
         },
         "active": {
-          "background-color": { "value": "#221a5a" },
-          "border-color": { "value": "#221a5a" }
+          "background-color": { "$value": "#221a5a" },
+          "border-color": { "$value": "#221a5a" }
         }
       },
       "secondary": {
-        "background-color": { "value": "#417aa9" },
-        "border-color": { "value": "#417aa9" },
-        "color": { "value": "#ffffff" },
-        "font-size": { "value": ".9rem" },
-        "font-weight": { "value": "500" },
+        "background-color": { "$value": "#417aa9" },
+        "border-color": { "$value": "#417aa9" },
+        "color": { "$value": "#ffffff" },
+        "font-size": { "$value": ".9rem" },
+        "font-weight": { "$value": "500" },
         "hover": {
-          "background-color": { "value": "#37678f" },
-          "border-color": { "value": "#37678f" }
+          "background-color": { "$value": "#37678f" },
+          "border-color": { "$value": "#37678f" }
         },
         "active": {
-          "background-color": { "value": "#37678f" },
-          "border-color": { "value": "#37678f" }
+          "background-color": { "$value": "#37678f" },
+          "border-color": { "$value": "#37678f" }
         },
         "focus": {
-          "background-color": { "value": "#37678f" },
-          "border-color": { "value": "#37678f" }
+          "background-color": { "$value": "#37678f" },
+          "border-color": { "$value": "#37678f" }
         }
       },
       "subtle": {
-        "font-size": { "value": ".9rem" },
-        "font-weight": { "value": "500" }
+        "font-size": { "$value": ".9rem" },
+        "font-weight": { "$value": "500" }
       },
       "focus": {
-        "background-color": { "value": "#221a5a" },
-        "border-color": { "value": "#221a5a" }
+        "background-color": { "$value": "#221a5a" },
+        "border-color": { "$value": "#221a5a" }
       }
     }
   }

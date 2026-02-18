@@ -2,7 +2,7 @@
   "owc": {
     "color": {
       "primary": {
-        "value": "#417aa9"
+        "$value": "#417aa9"
       }
     }
   }

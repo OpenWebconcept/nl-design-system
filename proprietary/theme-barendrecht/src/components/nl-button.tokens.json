@@ -1,50 +1,50 @@
 {
   "nl": {
     "button": {
-      "border-radius": { "value": "7px" },
+      "border-radius": { "$value": "7px" },
       "default": {
-        "font-size": { "value": "1.063rem" },
+        "font-size": { "$value": "1.063rem" },
         "hover": {
-          "background-color": { "value": "#0653a1" },
-          "border-color": { "value": "#0653a1" }
+          "background-color": { "$value": "#0653a1" },
+          "border-color": { "$value": "#0653a1" }
         },
         "active": {
-          "background-color": { "value": "#0653a1" },
-          "border-color": { "value": "#0653a1" }
+          "background-color": { "$value": "#0653a1" },
+          "border-color": { "$value": "#0653a1" }
         },
         "focus": {
-          "background-color": { "value": "#0653a1" },
-          "border-color": { "value": "#0653a1" }
+          "background-color": { "$value": "#0653a1" },
+          "border-color": { "$value": "#0653a1" }
         }
       },
       "primary": {
-        "font-size": { "value": "1.063rem" },
+        "font-size": { "$value": "1.063rem" },
         "hover": {
-          "background-color": { "value": "#0653a1" },
-          "border-color": { "value": "#0653a1" }
+          "background-color": { "$value": "#0653a1" },
+          "border-color": { "$value": "#0653a1" }
         },
         "active": {
-          "background-color": { "value": "#0653a1" },
-          "border-color": { "value": "#0653a1" }
+          "background-color": { "$value": "#0653a1" },
+          "border-color": { "$value": "#0653a1" }
         }
       },
       "secondary": {
-        "font-size": { "value": "1.063rem" },
+        "font-size": { "$value": "1.063rem" },
         "hover": {
-          "background-color": { "value": "#0653a1" },
-          "border-color": { "value": "#0653a1" }
+          "background-color": { "$value": "#0653a1" },
+          "border-color": { "$value": "#0653a1" }
         },
         "active": {
-          "background-color": { "value": "#0653a1" },
-          "border-color": { "value": "#0653a1" }
+          "background-color": { "$value": "#0653a1" },
+          "border-color": { "$value": "#0653a1" }
         }
       },
       "subtle": {
-        "font-size": { "value": "1.063rem" }
+        "font-size": { "$value": "1.063rem" }
       },
       "focus": {
-        "background-color": { "value": "#0653a1" },
-        "border-color": { "value": "#0653a1" }
+        "background-color": { "$value": "#0653a1" },
+        "border-color": { "$value": "#0653a1" }
       }
     }
   }

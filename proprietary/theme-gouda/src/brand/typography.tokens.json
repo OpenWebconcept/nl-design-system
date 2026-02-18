@@ -3,7 +3,7 @@
     "typography": {
       "font-family": {
         "sans": {
-          "value": "Ubuntu, sans-serif"
+          "$value": "Ubuntu, sans-serif"
         }
       }
     }

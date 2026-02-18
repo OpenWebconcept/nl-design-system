@@ -2,22 +2,22 @@
   "owc": {
     "button": {
       "border-width": {
-        "value": "1px"
+        "$value": "1px"
       },
       "border-radius": {
-        "value": "4px"
+        "$value": "4px"
       },
       "padding-block": {
-        "value": ".7rem"
+        "$value": ".7rem"
       },
       "padding-inline": {
-        "value": "1.2rem"
+        "$value": "1.2rem"
       },
       "font-size": {
-        "value": "16px"
+        "$value": "16px"
       },
       "font-weight": {
-        "value": "600"
+        "$value": "600"
       }
     }
   }

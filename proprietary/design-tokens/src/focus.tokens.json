@@ -2,13 +2,13 @@
   "owc": {
     "focus": {
       "outline-width": {
-        "value": "2px"
+        "$value": "2px"
       },
       "outline-style": {
-        "value": "solid"
+        "$value": "solid"
       },
       "outline-offset": {
-        "value": "2px"
+        "$value": "2px"
       }
     }
   }

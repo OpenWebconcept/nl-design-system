@@ -2,19 +2,19 @@
   "owc": {
     "color": {
       "primary": {
-        "value": "#1d70b8"
+        "$value": "#1d70b8"
       },
       "secondary": {
-        "value": "#4d4d4d"
+        "$value": "#4d4d4d"
       },
       "success": {
-        "value": "#28a745"
+        "$value": "#28a745"
       },
       "warning": {
-        "value": "#ffc107"
+        "$value": "#ffc107"
       },
       "danger": {
-        "value": "#dc3545"
+        "$value": "#dc3545"
       }
     }
   }

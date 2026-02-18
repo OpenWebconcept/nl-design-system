@@ -3,18 +3,18 @@
     "typography": {
       "font-family": {
         "sans": {
-          "value": "Ubuntu, sans-serif"
+          "$value": "Ubuntu, sans-serif"
         }
       },
       "font-size": {
         "sm": {
-          "value": "clamp(0.9rem, 0.7822rem + 0.1845vw, 1rem)"
+          "$value": "clamp(0.9rem, 0.7822rem + 0.1845vw, 1rem)"
         },
         "base": {
-          "value": "clamp(0.875rem, 0.8103rem + 0.2759vw, 1.1rem)"
+          "$value": "clamp(0.875rem, 0.8103rem + 0.2759vw, 1.1rem)"
         },
         "xl": {
-          "value": "clamp(0.9275rem, 0.8383rem + 0.3807vw, 1.2rem)"
+          "$value": "clamp(0.9275rem, 0.8383rem + 0.3807vw, 1.2rem)"
         }
       }
     }
