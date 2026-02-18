@@ -1,0 +1,63 @@
+{
+  "nl": {
+    "button": {
+      "border-radius": { "value": "5px" },
+      "padding-block-start": { "value": ".8rem" },
+      "padding-block-end": { "value": ".8rem" },
+      "default": {
+        "font-size": { "value": "1.063rem" },
+        "font-weight": { "value": "400" },
+        "line-height": { "value": "1.7" },
+        "hover": {
+          "background-color": { "value": "#005b97" },
+          "border-color": { "value": "#005b97" }
+        },
+        "active": {
+          "background-color": { "value": "#005b97" },
+          "border-color": { "value": "#005b97" }
+        },
+        "focus": {
+          "background-color": { "value": "#005b97" },
+          "border-color": { "value": "#005b97" }
+        }
+      },
+      "primary": {
+        "border-width": { "value": "0px" },
+        "color": { "value": "#ffffff" },
+        "font-size": { "value": "1.063rem" },
+        "font-weight": { "value": "400" },
+        "line-height": { "value": "1.7" },
+        "hover": {
+          "background-color": { "value": "#005b97" },
+          "border-color": { "value": "#005b97" }
+        },
+        "active": {
+          "background-color": { "value": "#005b97" },
+          "border-color": { "value": "#005b97" }
+        }
+      },
+      "secondary": {
+        "font-size": { "value": "1.063rem" },
+        "font-weight": { "value": "400" },
+        "line-height": { "value": "1.7" },
+        "hover": {
+          "background-color": { "value": "#005b97" },
+          "border-color": { "value": "#005b97" }
+        },
+        "active": {
+          "background-color": { "value": "#005b97" },
+          "border-color": { "value": "#005b97" }
+        }
+      },
+      "subtle": {
+        "font-size": { "value": "1.063rem" },
+        "font-weight": { "value": "400" },
+        "line-height": { "value": "1.7" }
+      },
+      "focus": {
+        "background-color": { "value": "#005b97" },
+        "border-color": { "value": "#005b97" }
+      }
+    }
+  }
+}

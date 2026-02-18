@@ -198,6 +198,9 @@ importers:
       '@gemeente-denhaag/process-steps':
         specifier: 4.2.3
         version: 4.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@nl-design-system-candidate/button-css':
+        specifier: 1.1.0
+        version: 1.1.0
     devDependencies:
       '@babel/core':
         specifier: 7.28.0
@@ -357,6 +360,18 @@ importers:
 
   proprietary/assets: {}
 
+  proprietary/design-tokens:
+    devDependencies:
+      chokidar-cli:
+        specifier: 3.0.0
+        version: 3.0.0
+      rimraf:
+        specifier: 6.0.1
+        version: 6.0.1
+      style-dictionary:
+        specifier: 3.9.2
+        version: 3.9.2
+
   proprietary/theme-barendrecht:
     dependencies:
       '@fontsource/lato':
@@ -436,6 +451,9 @@ importers:
   proprietary/theme-noordwijk:
     dependencies:
       '@fontsource/roboto':
+        specifier: 5.1.0
+        version: 5.1.0
+      '@fontsource/roboto-slab':
         specifier: 5.1.0
         version: 5.1.0
     devDependencies:
@@ -1432,6 +1450,9 @@ packages:
   '@fontsource/lato@5.1.0':
     resolution: {integrity: sha512-wYa/DeUS/WuaJoR/vY+v74W6gtOm98DgoRdSj4FuMXe0E0XYGAEVOgh+DxusJR3EglRZU6ZZDF7vZ881vV1KGA==}
 
+  '@fontsource/roboto-slab@5.1.0':
+    resolution: {integrity: sha512-qLqqRm5nwNVgxcfkwL7loyCZr5R5ZR0Vo5vZFgem+zrSKdufB8zQAcOFR3i3ZGnFjuQc2izWSXheY8FSqJ8UoQ==}
+
   '@fontsource/roboto@5.1.0':
     resolution: {integrity: sha512-cFRRC1s6RqPygeZ8Uw/acwVHqih8Czjt6Q0MwoUoDe9U3m4dH1HmNDRBZyqlMSFwgNAUKgFImncKdmDHyKpwdg==}
 
@@ -1748,6 +1769,9 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
+
+  '@nl-design-system-candidate/button-css@1.1.0':
+    resolution: {integrity: sha512-w0JLQyiPL9UrfRwzu3Mq2EWbYvAJbolepeFH4ggyBFXoYm9RMWX6vWb/8Oj999GzAF6N77LlES5jUnaR3BJ7Yw==}
 
   '@nl-design-system/eslint-config@2.1.1':
     resolution: {integrity: sha512-CU1IOIZk6gV9048rU/1wfV2OaQKhdRFCktpC7jNj4NpnNQstOHKUojmB08xajxPTzwwerQS303dGSrC1XW6r/w==}
@@ -7824,6 +7848,8 @@ snapshots:
 
   '@fontsource/lato@5.1.0': {}
 
+  '@fontsource/roboto-slab@5.1.0': {}
+
   '@fontsource/roboto@5.1.0': {}
 
   '@fontsource/ubuntu@5.1.0': {}
@@ -8071,6 +8097,8 @@ snapshots:
 
   '@next/swc-win32-x64-msvc@15.4.1':
     optional: true
+
+  '@nl-design-system-candidate/button-css@1.1.0': {}
 
   '@nl-design-system/eslint-config@2.1.1(eslint@9.31.0)(typescript@5.8.3)':
     dependencies:

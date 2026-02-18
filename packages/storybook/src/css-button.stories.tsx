@@ -1,37 +1,48 @@
 /* @license CC0-1.0 */
 
 import type { Meta, StoryObj } from '@storybook/react';
-import readme from '@openwebconcept/components-css/button/README.md?raw';
-import '@openwebconcept/components-css/button/index.scss';
-import { PropsWithChildren } from 'react';
+import '@nl-design-system-candidate/button-css/button.css';
 
-const Button = ({ children }: PropsWithChildren) => (
-  <button className="example-button" type="button">
-    <span className="example-button__text">{children}</span>
-  </button>
-);
+interface ButtonProps {
+  label: string;
+  appearance?: 'primary' | 'secondary' | 'subtle';
+  disabled?: boolean;
+  busy?: boolean;
+}
+
+const Button = ({ label, appearance, disabled, busy }: ButtonProps) => {
+  const classNames = [
+    'nl-button',
+    appearance ? `nl-button--${appearance}` : '',
+    disabled ? 'nl-button--disabled' : '',
+    busy ? 'nl-button--busy' : '',
+  ]
+    .filter(Boolean)
+    .join(' ');
+
+  return (
+    <button className={classNames} disabled={disabled} type="button">
+      <span className="nl-button__label">{label}</span>
+    </button>
+  );
+};
 
 const meta = {
   id: 'css-button',
   args: {
-    children: 'Opslaan en verder',
+    label: 'Opslaan en verder',
   },
   argTypes: {
-    children: {
-      name: 'Content',
-      defaultValue: '',
-      description: 'Button text',
-      type: {
-        name: 'string',
-        required: true,
-      },
+    appearance: {
+      control: { type: 'select' },
+      options: [undefined, 'primary', 'secondary', 'subtle'],
     },
   },
   component: Button,
   parameters: {
     docs: {
       description: {
-        component: readme,
+        component: 'Button component van het NL Design System (`@nl-design-system-candidate/button-css`).',
       },
     },
   },
@@ -40,9 +51,26 @@ const meta = {
 } satisfies Meta<typeof Button>;
 
 export default meta;
-
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
-  name: 'Example button',
+export const Default: Story = {};
+
+export const Primary: Story = {
+  args: { appearance: 'primary' },
+};
+
+export const Secondary: Story = {
+  args: { appearance: 'secondary' },
+};
+
+export const Subtle: Story = {
+  args: { appearance: 'subtle' },
+};
+
+export const Disabled: Story = {
+  args: { appearance: 'primary', disabled: true },
+};
+
+export const Busy: Story = {
+  args: { appearance: 'primary', busy: true, label: 'Bezig…' },
 };

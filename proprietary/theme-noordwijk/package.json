@@ -28,7 +28,8 @@
     "watch:style-dictionary": "chokidar --follow-symlinks --initial --command 'pnpm run build' 'src/**/*.tokens.json'"
   },
   "dependencies": {
-    "@fontsource/roboto": "5.1.0"
+    "@fontsource/roboto": "5.1.0",
+    "@fontsource/roboto-slab": "5.1.0"
   },
   "peerDependencies": {
     "@openwebconcept/design-tokens": "1.0.0-alpha.0"

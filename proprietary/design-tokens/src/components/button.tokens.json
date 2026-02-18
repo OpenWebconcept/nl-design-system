@@ -8,10 +8,10 @@
         "value": "4px"
       },
       "padding-block": {
-        "value": "8px"
+        "value": ".7rem"
       },
       "padding-inline": {
-        "value": "16px"
+        "value": "1.2rem"
       },
       "font-size": {
         "value": "16px"

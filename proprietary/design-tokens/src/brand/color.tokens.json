@@ -4,7 +4,7 @@
       "primary": {
         "value": "#1d70b8"
       },
-"secondary": {
+      "secondary": {
         "value": "#4d4d4d"
       },
       "success": {
@@ -15,12 +15,6 @@
       },
       "danger": {
         "value": "#dc3545"
-      },
-      "white": {
-        "value": "#ffffff"
-      },
-      "black": {
-        "value": "#000000"
       }
     }
   }

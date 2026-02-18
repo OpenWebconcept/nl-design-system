@@ -36,7 +36,7 @@
       },
       "step-heading": {
         "color": {
-          "value": "{owc.color.black}"
+          "value": "#000000"
         },
         "font-family": {
           "value": "{owc.typography.font-family.sans}"
@@ -55,12 +55,12 @@
         },
         "not-checked": {
           "color": {
-            "value": "{owc.color.black}"
+            "value": "#000000"
           }
         },
         "checked": {
           "color": {
-            "value": "{owc.color.black}"
+            "value": "#000000"
           },
           "font-size": {
             "value": "{owc.typography.font-size.xl}"
@@ -99,14 +99,14 @@
       },
       "step-meta": {
         "color": {
-          "value": "{owc.color.black}"
+          "value": "#000000"
         },
         "font-size": {
           "value": "16px"
         },
         "date": {
           "color": {
-            "value": "{owc.color.black}"
+            "value": "#000000"
           },
           "font-size": {
             "value": "{owc.typography.font-size.sm}"
@@ -166,7 +166,7 @@
           "value": "#ced4da"
         },
         "color": {
-          "value": "{owc.color.white}"
+          "value": "#ffffff"
         },
         "nested-color": {
           "value": "#ced4da"
@@ -174,7 +174,7 @@
       },
       "checked": {
         "background-color": {
-          "value": "{owc.color.white}"
+          "value": "#ffffff"
         },
         "border-color": {
           "value": "{owc.color.primary}"
@@ -191,7 +191,7 @@
           "value": "{owc.color.primary}"
         },
         "color": {
-          "value": "{owc.color.white}"
+          "value": "#ffffff"
         },
         "nested-color": {
           "value": "{owc.color.primary}"
@@ -199,13 +199,13 @@
       },
       "not-checked": {
         "background-color": {
-          "value": "{owc.color.white}"
+          "value": "#ffffff"
         },
         "border-color": {
           "value": "#ced4da"
         },
         "color": {
-          "value": "{owc.color.black}"
+          "value": "#000000"
         }
       },
       "disabled": {
@@ -227,10 +227,10 @@
           "value": "#f97316"
         },
         "color": {
-          "value": "{owc.color.white}"
+          "value": "#ffffff"
         },
         "nested-background-color": {
-          "value": "{owc.color.white}"
+          "value": "#ffffff"
         },
         "nested-border-color": {
           "value": "#f97316"
@@ -244,7 +244,7 @@
           "value": "{owc.color.danger}"
         },
         "color": {
-          "value": "{owc.color.white}"
+          "value": "#ffffff"
         }
       },
       "connector": {
