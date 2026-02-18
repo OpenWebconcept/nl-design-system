@@ -11,6 +11,14 @@
           "options": {
             "outputReferences": true
           }
+        },
+        {
+          "destination": "theme.css",
+          "format": "css/variables",
+          "options": {
+            "selector": ".theme-owc",
+            "outputReferences": true
+          }
         }
       ]
     },

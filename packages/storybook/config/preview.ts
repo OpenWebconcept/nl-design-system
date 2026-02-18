@@ -1,3 +1,4 @@
+import '@openwebconcept/design-tokens/dist/theme.css';
 import '@openwebconcept/theme-barendrecht/dist/index.css';
 import '@openwebconcept/theme-de-fryske-marren/dist/index.css';
 import '@openwebconcept/theme-gouda/dist/index.css';
@@ -14,13 +15,14 @@ const preview: Preview = {
   decorators: [
     ParametersArgsDecorator,
     withThemeByClassName({
-      defaultTheme: 'barendrecht',
+      defaultTheme: 'openwebconcept',
       themes: {
         barendrecht: 'theme-barendrecht',
         'de-fryske-marren': 'theme-de-fryske-marren',
         gouda: 'theme-gouda',
         'hoeksche-waard': 'theme-hoeksche-waard',
         noordwijk: 'theme-noordwijk',
+        openwebconcept: 'theme-owc',
       },
     }),
   ],

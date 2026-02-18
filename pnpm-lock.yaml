@@ -214,6 +214,9 @@ importers:
       '@openwebconcept/components-css':
         specifier: workspace:*
         version: link:../components-css
+      '@openwebconcept/design-tokens':
+        specifier: workspace:*
+        version: link:../../proprietary/design-tokens
       '@openwebconcept/theme-barendrecht':
         specifier: workspace:*
         version: link:../../proprietary/theme-barendrecht
