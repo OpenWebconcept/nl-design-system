@@ -1,9 +1,6 @@
 {
-  "hoeksche-waard": {
+  "owc": {
     "focus": {
-      "outline-color": {
-        "value": "{hoeksche-waard.color.primary}"
-      },
       "outline-width": {
         "value": "2px"
       },

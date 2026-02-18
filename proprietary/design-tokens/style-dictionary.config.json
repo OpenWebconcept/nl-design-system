@@ -1,19 +1,14 @@
 {
   "source": ["./src/**/tokens.json", "./src/**/*.tokens.json"],
-  "include": [
-    "node_modules/@openwebconcept/design-tokens/src/**/*.tokens.json",
-    "../design-tokens/src/**/*.tokens.json"
-  ],
   "platforms": {
     "css": {
       "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4"],
       "buildPath": "dist/",
       "files": [
         {
-          "destination": "theme.css",
+          "destination": "tokens.css",
           "format": "css/variables",
           "options": {
-            "selector": ".theme-hoeksche-waard",
             "outputReferences": true
           }
         }

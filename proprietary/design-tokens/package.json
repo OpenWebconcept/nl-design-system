@@ -1,13 +1,12 @@
 {
-  "name": "@openwebconcept/theme-hoeksche-waard",
+  "name": "@openwebconcept/design-tokens",
   "version": "1.0.0-alpha.0",
   "author": "Community for NL Design System",
-  "description": "Design tokens for Hoeksche Waard theme",
+  "description": "Shared design tokens for NL Design System",
   "license": "SEE LICENSE IN LICENSE.md",
   "keywords": [
     "nl-design-system",
-    "design-tokens",
-    "hoeksche-waard"
+    "design-tokens"
   ],
   "private": true,
   "publishConfig": {
@@ -16,27 +15,19 @@
   "repository": {
     "type": "git+ssh",
     "url": "git@github.com:openwebconcept/nl-design-system.git",
-    "directory": "proprietary/theme-hoeksche-waard"
+    "directory": "proprietary/design-tokens"
   },
   "scripts": {
     "clean": "rimraf dist/",
     "build": "pnpm run --sequential '/^build:.+$/'",
     "build:clean": "pnpm run clean",
     "build:style-dictionary": "style-dictionary build --config ./style-dictionary.config.json",
-    "build:index": "sass src/index.scss dist/index.css --no-source-map",
     "watch": "pnpm run '/^watch:.+$/'",
     "watch:style-dictionary": "chokidar --follow-symlinks --initial --command 'pnpm run build' 'src/**/*.tokens.json'"
-  },
-  "dependencies": {
-    "@fontsource/ubuntu": "5.1.0"
-  },
-  "peerDependencies": {
-    "@openwebconcept/design-tokens": "1.0.0-alpha.0"
   },
   "devDependencies": {
     "chokidar-cli": "3.0.0",
     "rimraf": "6.0.1",
-    "sass": "1.89.2",
     "style-dictionary": "3.9.2"
   }
 }

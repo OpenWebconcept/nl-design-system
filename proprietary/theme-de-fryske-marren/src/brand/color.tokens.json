@@ -1,38 +1,8 @@
 {
-  "fryske-marren": {
+  "owc": {
     "color": {
       "primary": {
         "value": "#0071bb"
-      },
-      "secondary": {
-        "value": "#4d4d4d"
-      },
-      "success": {
-        "value": "#28a745"
-      },
-      "warning": {
-        "value": "#ffc107"
-      },
-      "danger": {
-        "value": "#dc3545"
-      },
-      "white": {
-        "value": "#ffffff"
-      },
-      "black": {
-        "value": "#000000"
-      },
-      "grey": {
-        "50": { "value": "#f8f9fa" },
-        "100": { "value": "#e9ecef" },
-        "200": { "value": "#dee2e6" },
-        "300": { "value": "#ced4da" },
-        "400": { "value": "#adb5bd" },
-        "500": { "value": "#6c757d" },
-        "600": { "value": "#495057" },
-        "700": { "value": "#343a40" },
-        "800": { "value": "#212529" },
-        "900": { "value": "#121416" }
       }
     }
   }
