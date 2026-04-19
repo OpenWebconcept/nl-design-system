@@ -8,7 +8,6 @@
     "nl-design-system",
     "design-tokens"
   ],
-  "private": true,
   "publishConfig": {
     "access": "public"
   },
