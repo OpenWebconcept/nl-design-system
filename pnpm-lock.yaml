@@ -232,6 +232,9 @@ importers:
       '@openwebconcept/theme-noordwijk':
         specifier: workspace:*
         version: link:../../proprietary/theme-noordwijk
+      '@openwebconcept/theme-owc':
+        specifier: workspace:*
+        version: link:../../proprietary/theme-owc
       '@openwebconcept/web-components-react':
         specifier: workspace:*
         version: link:../web-components-react

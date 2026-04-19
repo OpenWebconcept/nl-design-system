@@ -24,6 +24,7 @@
     "@openwebconcept/assets": "workspace:*",
     "@openwebconcept/design-tokens": "workspace:*",
     "@openwebconcept/components-css": "workspace:*",
+    "@openwebconcept/theme-owc": "workspace:*",
     "@openwebconcept/theme-barendrecht": "workspace:*",
     "@openwebconcept/theme-de-fryske-marren": "workspace:*",
     "@openwebconcept/theme-gouda": "workspace:*",
