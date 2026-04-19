@@ -1,0 +1,57 @@
+{
+  "usesDtcg": true,
+  "source": ["./src/**/tokens.json", "./src/**/*.tokens.json"],
+  "include": [
+    "node_modules/@openwebconcept/design-tokens/src/**/*.tokens.json",
+    "../design-tokens/src/**/*.tokens.json"
+  ],
+  "platforms": {
+    "css": {
+      "transforms": ["name/kebab", "color/hsl-4"],
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "theme.css",
+          "format": "css/variables",
+          "options": {
+            "selector": ".theme-owc",
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "scss": {
+      "transforms": ["name/kebab", "color/hsl-4"],
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "js": {
+      "transforms": ["name/camel", "color/hsl-4"],
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "index.js",
+          "format": "javascript/es6"
+        }
+      ]
+    },
+    "json": {
+      "transforms": ["name/camel", "color/hsl-4"],
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json/nested"
+        }
+      ]
+    }
+  }
+}
