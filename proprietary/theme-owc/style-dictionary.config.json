@@ -1,15 +1,20 @@
 {
   "usesDtcg": true,
   "source": ["./src/**/tokens.json", "./src/**/*.tokens.json"],
+  "include": [
+    "node_modules/@openwebconcept/design-tokens/src/**/*.tokens.json",
+    "../design-tokens/src/**/*.tokens.json"
+  ],
   "platforms": {
     "css": {
       "transforms": ["name/kebab", "color/hsl-4"],
       "buildPath": "dist/",
       "files": [
         {
-          "destination": "tokens.css",
+          "destination": "theme.css",
           "format": "css/variables",
           "options": {
+            "selector": ".theme-owc",
             "outputReferences": true
           }
         }

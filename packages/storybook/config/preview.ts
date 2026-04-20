@@ -1,4 +1,4 @@
-import '@openwebconcept/design-tokens/dist/theme.css';
+import '@openwebconcept/theme-owc/dist/index.css';
 import '@openwebconcept/theme-barendrecht/dist/index.css';
 import '@openwebconcept/theme-de-fryske-marren/dist/index.css';
 import '@openwebconcept/theme-gouda/dist/index.css';
