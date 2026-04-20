@@ -1,6 +1,6 @@
 {
   "name": "@openwebconcept/theme-hoeksche-waard",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "author": "Community for NL Design System",
   "description": "Design tokens for Hoeksche Waard theme",
   "license": "SEE LICENSE IN LICENSE.md",
@@ -31,7 +31,7 @@
     "@fontsource/ubuntu": "5.2.8"
   },
   "peerDependencies": {
-    "@openwebconcept/design-tokens": "1.0.0-alpha.0"
+    "@openwebconcept/design-tokens": "1.0.0"
   },
   "devDependencies": {
     "chokidar-cli": "3.0.0",
