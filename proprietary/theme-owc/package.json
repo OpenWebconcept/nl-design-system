@@ -1,6 +1,6 @@
 {
   "name": "@openwebconcept/theme-owc",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "author": "Community for NL Design System",
   "description": "Default OpenWebconcept theme — emits OWC brand tokens scoped to the .theme-owc selector",
   "license": "SEE LICENSE IN LICENSE.md",
@@ -28,7 +28,7 @@
     "watch:style-dictionary": "chokidar --follow-symlinks --initial --command 'pnpm run build' 'src/**/*.tokens.json'"
   },
   "peerDependencies": {
-    "@openwebconcept/design-tokens": "1.0.0-alpha.0"
+    "@openwebconcept/design-tokens": "1.0.0"
   },
   "devDependencies": {
     "chokidar-cli": "3.0.0",
