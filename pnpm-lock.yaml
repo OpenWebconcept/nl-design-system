@@ -206,8 +206,8 @@ importers:
         specifier: 7.29.0
         version: 7.29.0
       '@etchteam/storybook-addon-status':
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 8.0.0
+        version: 8.0.0(storybook@8.6.17(prettier@3.8.1))
       '@openwebconcept/assets':
         specifier: workspace:*
         version: link:../../proprietary/assets
@@ -1523,8 +1523,10 @@ packages:
     resolution: {integrity: sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@etchteam/storybook-addon-status@5.0.0':
-    resolution: {integrity: sha512-0Dg94xQ3T+rYTi6ekFkaH0XU9k0IQOqidiSmwN47Oqw4u1qjxK6m7wV3j7C0deLEuf4U4PrAcsDfDjyehKne2A==}
+  '@etchteam/storybook-addon-status@8.0.0':
+    resolution: {integrity: sha512-PR0qiT5ndB32rfRi3a6QJE66sUuTD2GeJMmQFdaEOLjTWuJ/usdZ6hXXCmWadPLZXcg6wkvHGFQxDSOKNVjU9A==}
+    peerDependencies:
+      storybook: ^10.0.0
 
   '@fontsource/lato@5.2.7':
     resolution: {integrity: sha512-k5mum1ADbDW5cTw1Ett1eQVWeoZ6gq0ct6SFBibEhB4LRxhniChJZTBgd6ph5yBxLkN1fcnsnmicBNA4S/3nbw==}
@@ -4743,6 +4745,9 @@ packages:
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+
+  lodash@4.18.1:
+    resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
   log-symbols@4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}
@@ -8328,9 +8333,10 @@ snapshots:
       '@eslint/core': 0.17.0
       levn: 0.4.1
 
-  '@etchteam/storybook-addon-status@5.0.0':
+  '@etchteam/storybook-addon-status@8.0.0(storybook@8.6.17(prettier@3.8.1))':
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.18.1
+      storybook: 8.6.17(prettier@3.8.1)
 
   '@fontsource/lato@5.2.7': {}
 
@@ -9262,7 +9268,7 @@ snapshots:
       chalk: 3.0.0
       css.escape: 1.5.1
       dom-accessibility-api: 0.6.3
-      lodash: 4.17.21
+      lodash: 4.18.1
       redent: 3.0.0
 
   '@testing-library/jest-dom@6.9.1':
@@ -9870,7 +9876,7 @@ snapshots:
 
   async@2.6.4:
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.18.1
 
   available-typed-arrays@1.0.7:
     dependencies:
@@ -11716,6 +11722,8 @@ snapshots:
   lodash.uniq@4.5.0: {}
 
   lodash@4.17.21: {}
+
+  lodash@4.18.1: {}
 
   log-symbols@4.1.0:
     dependencies:
