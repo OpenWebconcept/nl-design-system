@@ -45,7 +45,7 @@
     "@storybook/theming": "8.6.16",
     "@types/react": "18.3.28",
     "@types/react-dom": "18.3.7",
-    "@whitespace/storybook-addon-html": "6.1.1",
+    "@whitespace/storybook-addon-html": "9.0.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-syntax-highlighter": "15.6.6",
