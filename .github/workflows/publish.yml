@@ -7,8 +7,7 @@ on:
 permissions:
   contents: read # since GH_TOKEN is provided, we only need 'read'
   pull-requests: write # Needed to create and update pull requests
-  # https://docs.npmjs.com/generating-provenance-statements#publishing-packages-with-provenance-via-github-actions
-  # id-token: write
+  id-token: write # npm Trusted Publishing (OIDC) + provenance
 
 jobs:
   publish:
@@ -43,7 +42,6 @@ jobs:
           GIT_AUTHOR_NAME: "NL Design System"
           GIT_COMMITTER_EMAIL: ${{ secrets.GIT_COMMITTER_EMAIL }}
           GIT_COMMITTER_NAME: "NL Design System"
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         with:
           commit: "docs(release): design system packages"
           setupGitUser: false
