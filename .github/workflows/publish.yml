@@ -5,8 +5,8 @@ on:
     branches: main
 
 permissions:
-  contents: read # since GH_TOKEN is provided, we only need 'read'
-  pull-requests: write # Needed to create and update pull requests
+  contents: write # push the changesets release branch and publish tags
+  pull-requests: write # create and update the release PR
   id-token: write # npm Trusted Publishing (OIDC) + provenance
 
 jobs:
@@ -17,8 +17,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
-        with:
-          token: ${{ secrets.GH_TOKEN }}
 
       - name: Install pnpm package manager
         uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4.2.0
@@ -37,7 +35,7 @@ jobs:
       - name: Publish to the npm Registry
         uses: changesets/action@e0145edc7d9d8679003495b11f87bd8ef63c0cba # v1.5.3
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           GIT_AUTHOR_EMAIL: ${{ secrets.GIT_AUTHOR_EMAIL }}
           GIT_AUTHOR_NAME: "NL Design System"
           GIT_COMMITTER_EMAIL: ${{ secrets.GIT_COMMITTER_EMAIL }}
