@@ -245,8 +245,8 @@ importers:
         specifier: 8.6.16
         version: 8.6.16(storybook@8.6.17(prettier@3.8.1))
       '@storybook/addon-actions':
-        specifier: 8.6.16
-        version: 8.6.16(storybook@8.6.17(prettier@3.8.1))
+        specifier: 9.0.8
+        version: 9.0.8
       '@storybook/addon-docs':
         specifier: 8.6.16
         version: 8.6.16(@types/react@18.3.28)(storybook@8.6.17(prettier@3.8.1))
@@ -2380,10 +2380,8 @@ packages:
     peerDependencies:
       storybook: ^8.6.16
 
-  '@storybook/addon-actions@8.6.16':
-    resolution: {integrity: sha512-ZxJpcxP3WeNTeQBi4anxuebHETk+dZrT4jhFn7ZRk3u732JLTpml5v4gstBEIVZbqhMddLJAENmu8GnTKpv2Ug==}
-    peerDependencies:
-      storybook: ^8.6.16
+  '@storybook/addon-actions@9.0.8':
+    resolution: {integrity: sha512-LFePu7PPnWN0Il/uoUpmA5T0J0C7d6haJIbg0pXrjxW2MQVSYXE4S4LSUz8fOImltBDV3xAl6tLPYHFj6VcrOA==}
 
   '@storybook/addon-docs@8.6.16':
     resolution: {integrity: sha512-MOUtu0t7dvOGwTOczXHrE6BZX8PqNZsRN/3MSsI3PwhogkJez6Oq1SyTNkmsq6zpXrH53BLJYSYDiBo70RTAAw==}
@@ -2674,9 +2672,6 @@ packages:
 
   '@types/unist@2.0.7':
     resolution: {integrity: sha512-cputDpIbFgLUaGQn6Vqg3/YsJwxUwHLO13v3i5ouxT4lat0khip9AEWxtERujXV9wxIB1EyF97BSJFt6vpdI8g==}
-
-  '@types/uuid@9.0.7':
-    resolution: {integrity: sha512-WUtIVRUZ9i5dYXefDEAI7sh9/O7jGvHg7Df/5O/gtH3Yabe5odI3UWopVR1qbPXQtvOxWu3mM4XxlYeZtMWF4g==}
 
   '@typescript-eslint/eslint-plugin@8.46.2':
     resolution: {integrity: sha512-ZGBMToy857/NIPaaCucIUQgqueOiq7HeAKkhlvqVV4lm089zUFW6ikRySx2v+cAhKeUCPuWVHeimyk6Dw1iY3w==}
@@ -6793,10 +6788,6 @@ packages:
   util@0.12.5:
     resolution: {integrity: sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==}
 
-  uuid@9.0.1:
-    resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
-    hasBin: true
-
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
@@ -9045,14 +9036,7 @@ snapshots:
       axe-core: 4.7.2
       storybook: 8.6.17(prettier@3.8.1)
 
-  '@storybook/addon-actions@8.6.16(storybook@8.6.17(prettier@3.8.1))':
-    dependencies:
-      '@storybook/global': 5.0.0
-      '@types/uuid': 9.0.7
-      dequal: 2.0.3
-      polished: 4.2.2
-      storybook: 8.6.17(prettier@3.8.1)
-      uuid: 9.0.1
+  '@storybook/addon-actions@9.0.8': {}
 
   '@storybook/addon-docs@8.6.16(@types/react@18.3.28)(storybook@8.6.17(prettier@3.8.1))':
     dependencies:
@@ -9389,8 +9373,6 @@ snapshots:
   '@types/resolve@1.20.2': {}
 
   '@types/unist@2.0.7': {}
-
-  '@types/uuid@9.0.7': {}
 
   '@typescript-eslint/eslint-plugin@8.46.2(@typescript-eslint/parser@8.46.2(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2)(typescript@5.9.3)':
     dependencies:
@@ -14111,8 +14093,6 @@ snapshots:
       is-generator-function: 1.0.10
       is-typed-array: 1.1.15
       which-typed-array: 1.1.18
-
-  uuid@9.0.1: {}
 
   validate-npm-package-license@3.0.4:
     dependencies:
