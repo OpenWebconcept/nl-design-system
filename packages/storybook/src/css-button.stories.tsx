@@ -10,7 +10,7 @@ interface ButtonProps {
   busy?: boolean;
 }
 
-const Button = ({ label, appearance, disabled, busy }: ButtonProps) => {
+const Button = ({ appearance, busy, disabled, label }: ButtonProps) => {
   const classNames = [
     'nl-button',
     appearance ? `nl-button--${appearance}` : '',
