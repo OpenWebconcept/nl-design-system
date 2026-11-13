@@ -50,6 +50,7 @@
   },
   "dependencies": {
     "@gemeente-denhaag/process-steps": "4.2.3",
+    "@gemeente-denhaag/tab": "3.4.1",
     "@nl-design-system-candidate/button-css": "1.1.0"
   }
 }
