@@ -195,6 +195,9 @@ importers:
 
   packages/storybook:
     dependencies:
+      '@gemeente-denhaag/descriptionlist':
+        specifier: 4.1.2
+        version: 4.1.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@gemeente-denhaag/process-steps':
         specifier: 4.2.3
         version: 4.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1424,6 +1427,12 @@ packages:
 
   '@gemeente-denhaag/button@3.0.2':
     resolution: {integrity: sha512-nybKK0rD3z/MtEC6zF604aNrblxNHsKrVLVntI3lB2Sj4/kjlPXvQdc5cuHUtkb1hGhA6q+d3lZ3fSubpWN1bA==}
+    peerDependencies:
+      react: 18 || 19
+      react-dom: 18 || 19
+
+  '@gemeente-denhaag/descriptionlist@4.1.2':
+    resolution: {integrity: sha512-O5FTWu6LLqTPYqIRhdu62k3jGFgIlB5UkHGNElzH4FDuPwBOAHtfM8HJumh148SD6y/LSrtNuKVxyGBj5rFsbg==}
     peerDependencies:
       react: 18 || 19
       react-dom: 18 || 19
@@ -8107,6 +8116,12 @@ snapshots:
   '@gemeente-denhaag/button@3.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@gemeente-denhaag/icons': 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      clsx: 2.1.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
+  '@gemeente-denhaag/descriptionlist@4.1.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
       clsx: 2.1.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
