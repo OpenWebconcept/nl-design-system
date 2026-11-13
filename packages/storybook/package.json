@@ -49,6 +49,7 @@
     "vite": "6.4.1"
   },
   "dependencies": {
+    "@gemeente-denhaag/alert": "4.1.5",
     "@gemeente-denhaag/process-steps": "4.2.3",
     "@nl-design-system-candidate/button-css": "1.1.0"
   }
