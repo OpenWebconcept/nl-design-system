@@ -32,6 +32,7 @@
     "@openwebconcept/theme-hoeksche-waard": "workspace:*",
     "@openwebconcept/theme-leiden": "workspace:*",
     "@openwebconcept/theme-noordwijk": "workspace:*",
+    "@openwebconcept/theme-ridderkerk": "workspace:*",
     "@openwebconcept/web-components-react": "workspace:*",
     "@openwebconcept/web-components-stencil": "workspace:*",
     "@storybook/addon-a11y": "10.6.6",
