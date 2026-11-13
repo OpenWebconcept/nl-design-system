@@ -37,6 +37,10 @@ const preview: Preview = {
     }),
   ],
   parameters: {
+    a11y: {
+      // Fail `pnpm test` on accessibility violations found by axe-core.
+      test: 'error',
+    },
     controls: { expanded: false },
     options: { panelPosition: 'right' },
     status: {

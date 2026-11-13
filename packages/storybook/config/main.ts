@@ -14,6 +14,7 @@ const config: StorybookConfig = {
     getAbsolutePath('@storybook/addon-themes'),
     getAbsolutePath('@whitespace/storybook-addon-html'),
     getAbsolutePath('@etchteam/storybook-addon-status'),
+    getAbsolutePath('@storybook/addon-vitest'),
   ],
   core: {
     disableTelemetry: true,
