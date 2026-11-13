@@ -198,6 +198,9 @@ importers:
       '@gemeente-denhaag/card':
         specifier: 5.2.1
         version: 5.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@gemeente-denhaag/card-group':
+        specifier: 2.1.6
+        version: 2.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@gemeente-denhaag/process-steps':
         specifier: 4.2.3
         version: 4.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1425,11 +1428,26 @@ packages:
   '@fontsource/ubuntu@5.2.8':
     resolution: {integrity: sha512-esSJCpgigwWOm4Ug9f7AMozUyBq5Iobea5C9QYsl2OlCb62wZABBUbXahHLdFv5Ru4lJCD9tUX6xEAeLwUTNBg==}
 
+  '@gemeente-denhaag/button-group@2.1.2':
+    resolution: {integrity: sha512-U01qk84MIRAvDZ/pgTyuBRRnmdgcZwAJwccf1I0WyfwDsNmRALzwcvFpEp+u0Z9YNk3PNwy+Lsv2LjT0vryQEw==}
+
   '@gemeente-denhaag/button@3.0.2':
     resolution: {integrity: sha512-nybKK0rD3z/MtEC6zF604aNrblxNHsKrVLVntI3lB2Sj4/kjlPXvQdc5cuHUtkb1hGhA6q+d3lZ3fSubpWN1bA==}
     peerDependencies:
       react: 18 || 19
       react-dom: 18 || 19
+
+  '@gemeente-denhaag/button@3.2.0':
+    resolution: {integrity: sha512-wl64XP9ER92qwQEUSZ1fWV98cnCgddMizR06iIqEjypcx/j/0/uDzzOxFeeuNHRXLCroyz2TciIM7Ti1o+O1vw==}
+    peerDependencies:
+      react: 18 || 19
+      react-dom: 18 || 19
+
+  '@gemeente-denhaag/card-authentication@2.1.6':
+    resolution: {integrity: sha512-Rtqxryq37B8jDS+fQ7D5G6y5JpSH5vxWHtWtXpScLisMl4DmARQz50wqlQengZAGLM+2enYsPErsl5MusjXZyQ==}
+
+  '@gemeente-denhaag/card-group@2.1.6':
+    resolution: {integrity: sha512-RXpOC7V4tPy3UMbGGwY48Mh5mWNms2BYa4RYJv8nLZkNGEtNvMDQl1WDHG7SMy9g89jgC4ShOevd8+7pRZO2qg==}
 
   '@gemeente-denhaag/card@5.2.1':
     resolution: {integrity: sha512-JOuwrxLDkvz31i7EOCBVo1kwYkCmy4iK53F1Pgad7ZITQcGYOCN223JgBLYZoMqtH37IuomRbDPzvla8NuDDsQ==}
@@ -8140,12 +8158,38 @@ snapshots:
 
   '@fontsource/ubuntu@5.2.8': {}
 
+  '@gemeente-denhaag/button-group@2.1.2': {}
+
   '@gemeente-denhaag/button@3.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@gemeente-denhaag/icons': 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       clsx: 2.1.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
+
+  '@gemeente-denhaag/button@3.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@gemeente-denhaag/icons': 4.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      clsx: 2.1.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
+  '@gemeente-denhaag/card-authentication@2.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@gemeente-denhaag/button': 3.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@gemeente-denhaag/button-group': 2.1.2
+      '@gemeente-denhaag/card': 5.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@gemeente-denhaag/link': 4.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@gemeente-denhaag/card-group@2.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@gemeente-denhaag/card-authentication': 2.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+    transitivePeerDependencies:
+      - react
+      - react-dom
 
   '@gemeente-denhaag/card@5.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
