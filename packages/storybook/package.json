@@ -27,6 +27,7 @@
     "@openwebconcept/theme-owc": "workspace:*",
     "@openwebconcept/theme-barendrecht": "workspace:*",
     "@openwebconcept/theme-de-fryske-marren": "workspace:*",
+    "@openwebconcept/theme-gooise-meren": "workspace:*",
     "@openwebconcept/theme-gouda": "workspace:*",
     "@openwebconcept/theme-hoeksche-waard": "workspace:*",
     "@openwebconcept/theme-noordwijk": "workspace:*",
