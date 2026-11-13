@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react-vite';
 import { Status } from '@gemeente-denhaag/process-steps';
 import '@gemeente-denhaag/process-steps/index.css';
 
