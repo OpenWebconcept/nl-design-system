@@ -14,15 +14,18 @@ The `@openwebconcept/design-tokens` package extracts common design tokens to:
 ## Included Tokens
 
 ### Focus Tokens
+
 - `focus.outline-width`: `2px`
 - `focus.outline-style`: `solid`
 - `focus.outline-offset`: `2px`
 
 ### Typography Tokens
+
 - Font sizes (sm, base, xl) with responsive clamp values
 - Line heights
 
 ### Component Tokens
+
 - Button structural properties (border, padding, font)
 
 ## Usage
