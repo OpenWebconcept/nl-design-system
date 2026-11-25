@@ -4,15 +4,17 @@ on:
   push:
     branches: main
 
-permissions:
-  contents: write # push the changesets release branch and publish tags
-  pull-requests: write # create and update the release PR
-  id-token: write # npm Trusted Publishing (OIDC) + provenance
+permissions: {}
 
 jobs:
   publish:
     if: ${{ github.repository != 'nl-design-system/example' }}
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # push the changesets release branch and publish tags
+      pull-requests: write # create and update the release PR
+      id-token: write # npm Trusted Publishing (OIDC) + provenance
 
     steps:
       - name: Checkout
