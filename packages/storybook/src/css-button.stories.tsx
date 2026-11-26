@@ -1,6 +1,6 @@
 /* @license CC0-1.0 */
 
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react-vite';
 import '@nl-design-system-candidate/button-css/button.css';
 
 interface ButtonProps {
@@ -10,7 +10,7 @@ interface ButtonProps {
   busy?: boolean;
 }
 
-const Button = ({ label, appearance, disabled, busy }: ButtonProps) => {
+const Button = ({ appearance, busy, disabled, label }: ButtonProps) => {
   const classNames = [
     'nl-button',
     appearance ? `nl-button--${appearance}` : '',
