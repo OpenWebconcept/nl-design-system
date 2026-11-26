@@ -28,7 +28,7 @@
     "watch:style-dictionary": "chokidar --follow-symlinks --initial --command 'pnpm run build' 'src/**/*.tokens.json'"
   },
   "peerDependencies": {
-    "@openwebconcept/design-tokens": "1.0.0"
+    "@openwebconcept/design-tokens": "^1.0.0"
   },
   "devDependencies": {
     "chokidar-cli": "3.0.0",
