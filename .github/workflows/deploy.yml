@@ -22,7 +22,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: ${{ steps.deploy-pages.outputs.page_url }}
+      url: ${{ steps.deploy-pages.outputs.page_url || steps.deploy-pages-retry.outputs.page_url }}
 
     steps:
       - name: Checkout
@@ -55,3 +55,14 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
         id: deploy-pages
+        continue-on-error: true
+
+      # Retry once after a wait, because the artifact listing can lag behind the upload (actions/deploy-pages#451).
+      - name: Wait before retrying the deployment
+        if: steps.deploy-pages.outcome == 'failure'
+        run: sleep 60
+
+      - name: Deploy to GitHub Pages, second attempt
+        if: steps.deploy-pages.outcome == 'failure'
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+        id: deploy-pages-retry
