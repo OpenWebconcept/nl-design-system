@@ -1,0 +1,142 @@
+{
+  "denhaag": {
+    "alert": {
+      "border-radius": {
+        "$value": "1px"
+      },
+      "centre-gap": {
+        "$value": "16px"
+      },
+      "content-gap": {
+        "$value": "12px"
+      },
+      "error": {
+        "action-button": {
+          "background-color": {
+            "$value": "#cf1b07"
+          },
+          "color": {
+            "$value": "#ffffff"
+          },
+          "hover-background-color": {
+            "$value": "#a30500"
+          }
+        },
+        "background-color": {
+          "$value": "#ffd9d6"
+        },
+        "close-icon-color": {
+          "$value": "#520100"
+        },
+        "icon-color": {
+          "$value": "#cf1b07"
+        },
+        "paragraph-color": {
+          "$value": "#520100"
+        },
+        "title-color": {
+          "$value": "#520100"
+        }
+      },
+      "gap": {
+        "$value": "24px"
+      },
+      "info": {
+        "action-button": {
+          "background-color": {
+            "$value": "{owc.color.primary}"
+          },
+          "color": {
+            "$value": "#ffffff"
+          },
+          "hover-background-color": {
+            "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+          }
+        },
+        "background-color": {
+          "$value": "color-mix(in srgb, {owc.color.primary} 12%, #ffffff)"
+        },
+        "close-icon-color": {
+          "$value": "color-mix(in srgb, {owc.color.primary}, #000000 60%)"
+        },
+        "icon-color": {
+          "$value": "{owc.color.primary}"
+        },
+        "paragraph-color": {
+          "$value": "color-mix(in srgb, {owc.color.primary}, #000000 60%)"
+        },
+        "title-color": {
+          "$value": "color-mix(in srgb, {owc.color.primary}, #000000 60%)"
+        }
+      },
+      "padding-block-end": {
+        "$value": "24px"
+      },
+      "padding-block-start": {
+        "$value": "24px"
+      },
+      "padding-inline-end": {
+        "$value": "24px"
+      },
+      "padding-inline-start": {
+        "$value": "24px"
+      },
+      "success": {
+        "action-button": {
+          "background-color": {
+            "$value": "#238541"
+          },
+          "color": {
+            "$value": "#ffffff"
+          },
+          "hover-background-color": {
+            "$value": "#1e6c35"
+          }
+        },
+        "background-color": {
+          "$value": "#d5e7d5"
+        },
+        "close-icon-color": {
+          "$value": "#002e0f"
+        },
+        "icon-color": {
+          "$value": "#238541"
+        },
+        "paragraph-color": {
+          "$value": "#002e0f"
+        },
+        "title-color": {
+          "$value": "#002e0f"
+        }
+      },
+      "warning": {
+        "action-button": {
+          "background-color": {
+            "$value": "#8a3500"
+          },
+          "color": {
+            "$value": "#ffffff"
+          },
+          "hover-background-color": {
+            "$value": "#662700"
+          }
+        },
+        "background-color": {
+          "$value": "#ffdcad"
+        },
+        "close-icon-color": {
+          "$value": "#8a3500"
+        },
+        "icon-color": {
+          "$value": "#8a3500"
+        },
+        "paragraph-color": {
+          "$value": "#8a3500"
+        },
+        "title-color": {
+          "$value": "#8a3500"
+        }
+      }
+    }
+  }
+}
