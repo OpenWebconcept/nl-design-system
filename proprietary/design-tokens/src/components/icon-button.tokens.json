@@ -1,0 +1,39 @@
+{
+  "denhaag": {
+    "icon-button": {
+      "color": {
+        "$value": "#4a4a4a"
+      },
+      "focus-color": {
+        "$value": "{owc.color.primary}"
+      },
+      "focus-outline-color": {
+        "$value": "{owc.color.primary}"
+      },
+      "focus-outline-offset": {
+        "$value": "{owc.focus.outline-offset}"
+      },
+      "focus-outline-style": {
+        "$value": "{owc.focus.outline-style}"
+      },
+      "focus-outline-width": {
+        "$value": "{owc.focus.outline-width}"
+      },
+      "hover-color": {
+        "$value": "{owc.color.primary}"
+      },
+      "padding-block-end": {
+        "$value": "2px"
+      },
+      "padding-block-start": {
+        "$value": "2px"
+      },
+      "padding-inline-end": {
+        "$value": "2px"
+      },
+      "padding-inline-start": {
+        "$value": "2px"
+      }
+    }
+  }
+}

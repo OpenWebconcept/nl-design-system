@@ -1,0 +1,108 @@
+{
+  "basis": {
+    "text": {
+      "font-size": {
+        "lg": {
+          "$value": "{owc.typography.font-size.xl}"
+        },
+        "md": {
+          "$value": "{owc.typography.font-size.base}"
+        },
+        "xl": {
+          "$value": "1.25rem"
+        }
+      }
+    }
+  },
+  "denhaag": {
+    "button": {
+      "border-radius": {
+        "$value": "{owc.button.border-radius}"
+      },
+      "border-width": {
+        "$value": "{owc.button.border-width}"
+      },
+      "font-family": {
+        "$value": "{owc.typography.font-family.sans}"
+      },
+      "font-size": {
+        "$value": "{owc.button.font-size}"
+      },
+      "font-weight": {
+        "$value": "{owc.button.font-weight}"
+      },
+      "gap": {
+        "$value": "8px"
+      },
+      "icon-only-height": {
+        "$value": "2.6875rem"
+      },
+      "icon-only-icon-height": {
+        "$value": "20px"
+      },
+      "large-size-line-height": {
+        "$value": "1.75"
+      },
+      "padding-block": {
+        "$value": "{owc.button.padding-block}"
+      },
+      "padding-inline": {
+        "$value": "{owc.button.padding-inline}"
+      },
+      "primary-action": {
+        "background-color": {
+          "$value": "{owc.color.primary}"
+        },
+        "color": {
+          "$value": "#ffffff"
+        },
+        "disabled-background-color": {
+          "$value": "#ced4da"
+        },
+        "disabled-color": {
+          "$value": "#6c757d"
+        },
+        "hover-background-color": {
+          "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+        },
+        "hover-color": {
+          "$value": "#ffffff"
+        }
+      },
+      "secondary-action": {
+        "background-color": {
+          "$value": "#ffffff"
+        },
+        "border-color": {
+          "$value": "{owc.color.primary}"
+        },
+        "color": {
+          "$value": "{owc.color.primary}"
+        },
+        "disabled-background-color": {
+          "$value": "#ffffff"
+        },
+        "disabled-border-color": {
+          "$value": "#ced4da"
+        },
+        "disabled-color": {
+          "$value": "#6c757d"
+        },
+        "hover-background-color": {
+          "$value": "color-mix(in srgb, {owc.color.primary} 10%, #ffffff)"
+        },
+        "hover-border-color": {
+          "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+        },
+        "hover-color": {
+          "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+        }
+      }
+    },
+    "color": {
+      "red-500": {
+        "$value": "{owc.color.danger}"
+      }
+    }
+  }
+}

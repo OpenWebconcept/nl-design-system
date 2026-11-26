@@ -1,0 +1,142 @@
+{
+  "denhaag": {
+    "alert": {
+      "border-radius": {
+        "$value": "1px"
+      },
+      "centre-gap": {
+        "$value": "16px"
+      },
+      "content-gap": {
+        "$value": "12px"
+      },
+      "error": {
+        "action-button": {
+          "background-color": {
+            "$value": "{basis.color.negative.inverse-bg-default}"
+          },
+          "color": {
+            "$value": "{basis.color.negative.inverse-color-default}"
+          },
+          "hover-background-color": {
+            "$value": "{basis.color.negative.inverse-bg-hover}"
+          }
+        },
+        "background-color": {
+          "$value": "{basis.color.negative.bg-default}"
+        },
+        "close-icon-color": {
+          "$value": "{basis.color.negative.color-document}"
+        },
+        "icon-color": {
+          "$value": "{basis.color.negative.color-default}"
+        },
+        "paragraph-color": {
+          "$value": "{basis.color.negative.color-document}"
+        },
+        "title-color": {
+          "$value": "{basis.color.negative.color-document}"
+        }
+      },
+      "gap": {
+        "$value": "24px"
+      },
+      "info": {
+        "action-button": {
+          "background-color": {
+            "$value": "{basis.color.info.inverse-bg-default}"
+          },
+          "color": {
+            "$value": "{basis.color.info.inverse-color-default}"
+          },
+          "hover-background-color": {
+            "$value": "{basis.color.info.inverse-bg-hover}"
+          }
+        },
+        "background-color": {
+          "$value": "{basis.color.info.bg-default}"
+        },
+        "close-icon-color": {
+          "$value": "{basis.color.info.color-document}"
+        },
+        "icon-color": {
+          "$value": "{basis.color.info.color-default}"
+        },
+        "paragraph-color": {
+          "$value": "{basis.color.info.color-document}"
+        },
+        "title-color": {
+          "$value": "{basis.color.info.color-document}"
+        }
+      },
+      "padding-block-end": {
+        "$value": "24px"
+      },
+      "padding-block-start": {
+        "$value": "24px"
+      },
+      "padding-inline-end": {
+        "$value": "24px"
+      },
+      "padding-inline-start": {
+        "$value": "24px"
+      },
+      "success": {
+        "action-button": {
+          "background-color": {
+            "$value": "{basis.color.positive.inverse-bg-default}"
+          },
+          "color": {
+            "$value": "{basis.color.positive.inverse-color-default}"
+          },
+          "hover-background-color": {
+            "$value": "{basis.color.positive.inverse-bg-hover}"
+          }
+        },
+        "background-color": {
+          "$value": "{basis.color.positive.bg-default}"
+        },
+        "close-icon-color": {
+          "$value": "{basis.color.positive.color-document}"
+        },
+        "icon-color": {
+          "$value": "{basis.color.positive.color-default}"
+        },
+        "paragraph-color": {
+          "$value": "{basis.color.positive.color-document}"
+        },
+        "title-color": {
+          "$value": "{basis.color.positive.color-document}"
+        }
+      },
+      "warning": {
+        "action-button": {
+          "background-color": {
+            "$value": "{basis.color.warning.inverse-bg-default}"
+          },
+          "color": {
+            "$value": "{basis.color.warning.inverse-color-default}"
+          },
+          "hover-background-color": {
+            "$value": "{basis.color.warning.inverse-bg-hover}"
+          }
+        },
+        "background-color": {
+          "$value": "{basis.color.warning.bg-default}"
+        },
+        "close-icon-color": {
+          "$value": "{basis.color.warning.color-document}"
+        },
+        "icon-color": {
+          "$value": "{basis.color.warning.color-default}"
+        },
+        "paragraph-color": {
+          "$value": "{basis.color.warning.color-document}"
+        },
+        "title-color": {
+          "$value": "{basis.color.warning.color-document}"
+        }
+      }
+    }
+  }
+}
