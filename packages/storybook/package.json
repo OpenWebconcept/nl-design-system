@@ -30,6 +30,7 @@
     "@openwebconcept/theme-gooise-meren": "workspace:*",
     "@openwebconcept/theme-gouda": "workspace:*",
     "@openwebconcept/theme-hoeksche-waard": "workspace:*",
+    "@openwebconcept/theme-leiden": "workspace:*",
     "@openwebconcept/theme-noordwijk": "workspace:*",
     "@openwebconcept/web-components-react": "workspace:*",
     "@openwebconcept/web-components-stencil": "workspace:*",

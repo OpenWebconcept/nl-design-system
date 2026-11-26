@@ -4,6 +4,7 @@ import '@openwebconcept/theme-de-fryske-marren/dist/index.css';
 import '@openwebconcept/theme-gooise-meren/dist/index.css';
 import '@openwebconcept/theme-gouda/dist/index.css';
 import '@openwebconcept/theme-hoeksche-waard/dist/index.css';
+import '@openwebconcept/theme-leiden/dist/index.css';
 import '@openwebconcept/theme-noordwijk/dist/index.css';
 import type { Preview } from '@storybook/react-vite';
 import { defineCustomElements } from '@openwebconcept/web-components-stencil/loader/index.js';
@@ -23,6 +24,7 @@ const preview: Preview = {
         'gooise-meren': 'theme-gooise-meren',
         gouda: 'theme-gouda',
         'hoeksche-waard': 'theme-hoeksche-waard',
+        leiden: 'theme-leiden',
         noordwijk: 'theme-noordwijk',
         openwebconcept: 'theme-owc',
       },
