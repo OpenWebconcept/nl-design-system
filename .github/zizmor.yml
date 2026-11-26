@@ -1,0 +1,6 @@
+rules:
+  unpinned-uses:
+    config:
+      policies:
+        # Require a full commit SHA for every action, including GitHub's own.
+        "*": hash-pin

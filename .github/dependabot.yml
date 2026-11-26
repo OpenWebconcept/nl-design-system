@@ -5,10 +5,20 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+    cooldown:
+      default-days: 7
+    groups:
+      action-runners:
+        applies-to: "version-updates"
+        update-types:
+          - "patch"
+          - "minor"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "monthly"
+    cooldown:
+      default-days: 7
     groups:
       patch-and-minor-dependencies:
         applies-to: "version-updates"
