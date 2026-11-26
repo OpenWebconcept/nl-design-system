@@ -1,9 +1,10 @@
-import { addons } from '@storybook/manager-api';
-import { create } from '@storybook/theming';
+import { addons } from 'storybook/manager-api';
+import { create } from 'storybook/theming';
 
 addons.setConfig({
   theme: create({
+    base: 'light',
     brandTitle: 'Open Webconcept',
-    colorPrimary: '#2FB298'
+    colorPrimary: '#2FB298',
   }),
 });
