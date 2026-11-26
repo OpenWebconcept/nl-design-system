@@ -17,8 +17,9 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+    # Same window as minimumReleaseAge in pnpm-workspace.yaml, because Dependabot passes it to pnpm and a longer one rejects packages already in the lockfile.
     cooldown:
-      default-days: 7
+      default-days: 1
     groups:
       patch-and-minor-dependencies:
         applies-to: "version-updates"
