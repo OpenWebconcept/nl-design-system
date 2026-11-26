@@ -1,0 +1,73 @@
+{
+  "denhaag": {
+    "link": {
+      "disabled-color": {
+        "$value": "#7a7a7a"
+      },
+      "external-icon-align": {
+        "$value": "center"
+      },
+      "focus-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+      },
+      "focus-outline-color": {
+        "$value": "{owc.color.primary}"
+      },
+      "focus-outline-style": {
+        "$value": "{owc.focus.outline-style}"
+      },
+      "focus-outline-width": {
+        "$value": "{owc.focus.outline-width}"
+      },
+      "hover-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+      },
+      "icon-gap": {
+        "$value": "4px"
+      },
+      "small-icon-font-size": {
+        "$value": "8px"
+      },
+      "small-icon-size": {
+        "$value": "8px"
+      },
+      "text-decoration": {
+        "$value": "underline"
+      }
+    }
+  },
+  "nl": {
+    "link": {
+      "active-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+      },
+      "color": {
+        "$value": "{owc.color.primary}"
+      },
+      "disabled-color": {
+        "$value": "#7a7a7a"
+      },
+      "focus-visible-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+      },
+      "hover-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+      },
+      "hover-text-decoration-line": {
+        "$value": "underline"
+      },
+      "hover-text-decoration-thickness": {
+        "$value": "auto"
+      },
+      "text-decoration-line": {
+        "$value": "underline"
+      },
+      "text-decoration-thickness": {
+        "$value": "auto"
+      },
+      "text-underline-offset": {
+        "$value": "auto"
+      }
+    }
+  }
+}

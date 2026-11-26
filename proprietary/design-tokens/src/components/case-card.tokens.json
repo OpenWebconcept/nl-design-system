@@ -1,0 +1,165 @@
+{
+  "common": {
+    "border-width": {
+      "xl": {
+        "$value": "{owc.focus.outline-width}"
+      }
+    }
+  },
+  "denhaag": {
+    "border-style": {
+      "dashed": {
+        "$value": "dashed"
+      }
+    },
+    "case-card": {
+      "action-active-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+      },
+      "action-color": {
+        "$value": "{owc.color.primary}"
+      },
+      "archived-action-color": {
+        "$value": "#4a4a4a"
+      },
+      "archived-background-background-color": {
+        "$value": "#f2f2f2"
+      },
+      "archived-background-color": {
+        "$value": "#d1d1d1"
+      },
+      "archived-color": {
+        "$value": "#4a4a4a"
+      },
+      "archived-context-color": {
+        "$value": "#4a4a4a"
+      },
+      "archived-subtitle-color": {
+        "$value": "#4a4a4a"
+      },
+      "archived-title-color": {
+        "$value": "#2e2e2e"
+      },
+      "background-background-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary} 10%, #ffffff)"
+      },
+      "background-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary} 30%, #ffffff)"
+      },
+      "border-radius": {
+        "$value": "3px"
+      },
+      "context-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 50%)"
+      },
+      "height": {
+        "$value": "240px"
+      },
+      "list": {
+        "background-hover-background-color": {
+          "$value": "#f2f2f2"
+        },
+        "border-color": {
+          "$value": "#d1d1d1"
+        },
+        "border-style": {
+          "$value": "solid"
+        },
+        "border-width": {
+          "$value": "1px"
+        },
+        "context-color": {
+          "$value": "#4a4a4a"
+        },
+        "footer-gap": {
+          "$value": "20px"
+        },
+        "subtitle-color": {
+          "$value": "#4a4a4a"
+        },
+        "title-color": {
+          "$value": "#2e2e2e"
+        },
+        "title-font-size": {
+          "$value": "{owc.typography.font-size.xl}"
+        },
+        "wrapper": {
+          "flex-direction": {
+            "$value": "row"
+          },
+          "gap": {
+            "$value": "24px"
+          },
+          "padding-block-end": {
+            "$value": "16px"
+          },
+          "padding-block-start": {
+            "$value": "16px"
+          },
+          "padding-inline-end": {
+            "$value": "16px"
+          },
+          "padding-inline-start": {
+            "$value": "16px"
+          }
+        }
+      },
+      "padding-block-start": {
+        "$value": "20px"
+      },
+      "paper-color": {
+        "$value": "#ffffff"
+      },
+      "subtitle-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 50%)"
+      },
+      "subtitle-font-family": {
+        "$value": "{owc.typography.font-family.sans}"
+      },
+      "subtitle-font-size": {
+        "$value": "{owc.typography.font-size.xl}"
+      },
+      "subtitle-font-weight": {
+        "$value": "500"
+      },
+      "subtitle-line-height": {
+        "$value": "1.5"
+      },
+      "subtitle-margin-block-start": {
+        "$value": "4px"
+      },
+      "title-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 60%)"
+      },
+      "title-font-family": {
+        "$value": "{owc.typography.font-family.sans}"
+      },
+      "title-font-size": {
+        "$value": "1.5rem"
+      },
+      "title-font-weight": {
+        "$value": "600"
+      },
+      "title-line-height": {
+        "$value": "1.5"
+      },
+      "wrapper-padding-block-end": {
+        "$value": "24px"
+      },
+      "wrapper-padding-block-start": {
+        "$value": "12px"
+      },
+      "wrapper-padding-inline-end": {
+        "$value": "24px"
+      },
+      "wrapper-padding-inline-start": {
+        "$value": "24px"
+      }
+    },
+    "color": {
+      "ocher-700": {
+        "$value": "{owc.color.primary}"
+      }
+    }
+  }
+}
