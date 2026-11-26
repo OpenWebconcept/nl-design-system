@@ -13,29 +13,29 @@
       "error": {
         "action-button": {
           "background-color": {
-            "$value": "#cf1b07"
+            "$value": "{basis.color.negative.inverse-bg-default}"
           },
           "color": {
-            "$value": "#ffffff"
+            "$value": "{basis.color.negative.inverse-color-default}"
           },
           "hover-background-color": {
-            "$value": "#a30500"
+            "$value": "{basis.color.negative.inverse-bg-hover}"
           }
         },
         "background-color": {
-          "$value": "#ffd9d6"
+          "$value": "{basis.color.negative.bg-default}"
         },
         "close-icon-color": {
-          "$value": "#520100"
+          "$value": "{basis.color.negative.color-document}"
         },
         "icon-color": {
-          "$value": "#cf1b07"
+          "$value": "{basis.color.negative.color-default}"
         },
         "paragraph-color": {
-          "$value": "#520100"
+          "$value": "{basis.color.negative.color-document}"
         },
         "title-color": {
-          "$value": "#520100"
+          "$value": "{basis.color.negative.color-document}"
         }
       },
       "gap": {
@@ -44,29 +44,29 @@
       "info": {
         "action-button": {
           "background-color": {
-            "$value": "{owc.color.primary}"
+            "$value": "{basis.color.info.inverse-bg-default}"
           },
           "color": {
-            "$value": "#ffffff"
+            "$value": "{basis.color.info.inverse-color-default}"
           },
           "hover-background-color": {
-            "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+            "$value": "{basis.color.info.inverse-bg-hover}"
           }
         },
         "background-color": {
-          "$value": "color-mix(in srgb, {owc.color.primary} 12%, #ffffff)"
+          "$value": "{basis.color.info.bg-default}"
         },
         "close-icon-color": {
-          "$value": "color-mix(in srgb, {owc.color.primary}, #000000 60%)"
+          "$value": "{basis.color.info.color-document}"
         },
         "icon-color": {
-          "$value": "{owc.color.primary}"
+          "$value": "{basis.color.info.color-default}"
         },
         "paragraph-color": {
-          "$value": "color-mix(in srgb, {owc.color.primary}, #000000 60%)"
+          "$value": "{basis.color.info.color-document}"
         },
         "title-color": {
-          "$value": "color-mix(in srgb, {owc.color.primary}, #000000 60%)"
+          "$value": "{basis.color.info.color-document}"
         }
       },
       "padding-block-end": {
@@ -84,57 +84,57 @@
       "success": {
         "action-button": {
           "background-color": {
-            "$value": "#238541"
+            "$value": "{basis.color.positive.inverse-bg-default}"
           },
           "color": {
-            "$value": "#ffffff"
+            "$value": "{basis.color.positive.inverse-color-default}"
           },
           "hover-background-color": {
-            "$value": "#1e6c35"
+            "$value": "{basis.color.positive.inverse-bg-hover}"
           }
         },
         "background-color": {
-          "$value": "#d5e7d5"
+          "$value": "{basis.color.positive.bg-default}"
         },
         "close-icon-color": {
-          "$value": "#002e0f"
+          "$value": "{basis.color.positive.color-document}"
         },
         "icon-color": {
-          "$value": "#238541"
+          "$value": "{basis.color.positive.color-default}"
         },
         "paragraph-color": {
-          "$value": "#002e0f"
+          "$value": "{basis.color.positive.color-document}"
         },
         "title-color": {
-          "$value": "#002e0f"
+          "$value": "{basis.color.positive.color-document}"
         }
       },
       "warning": {
         "action-button": {
           "background-color": {
-            "$value": "#8a3500"
+            "$value": "{basis.color.warning.inverse-bg-default}"
           },
           "color": {
-            "$value": "#ffffff"
+            "$value": "{basis.color.warning.inverse-color-default}"
           },
           "hover-background-color": {
-            "$value": "#662700"
+            "$value": "{basis.color.warning.inverse-bg-hover}"
           }
         },
         "background-color": {
-          "$value": "#ffdcad"
+          "$value": "{basis.color.warning.bg-default}"
         },
         "close-icon-color": {
-          "$value": "#8a3500"
+          "$value": "{basis.color.warning.color-document}"
         },
         "icon-color": {
-          "$value": "#8a3500"
+          "$value": "{basis.color.warning.color-default}"
         },
         "paragraph-color": {
-          "$value": "#8a3500"
+          "$value": "{basis.color.warning.color-document}"
         },
         "title-color": {
-          "$value": "#8a3500"
+          "$value": "{basis.color.warning.color-document}"
         }
       }
     }

@@ -1,0 +1,86 @@
+{
+  "basis": {
+    "color": {
+      "info": {
+        "bg-default": {
+          "$value": "color-mix(in srgb, {owc.color.primary} 12%, #ffffff)"
+        },
+        "color-default": {
+          "$value": "{owc.color.primary}"
+        },
+        "color-document": {
+          "$value": "color-mix(in srgb, {owc.color.primary}, #000000 60%)"
+        },
+        "inverse-bg-default": {
+          "$value": "{owc.color.primary}"
+        },
+        "inverse-bg-hover": {
+          "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+        },
+        "inverse-color-default": {
+          "$value": "#ffffff"
+        }
+      },
+      "negative": {
+        "bg-default": {
+          "$value": "#ffd9d6"
+        },
+        "color-default": {
+          "$value": "#cf1b07"
+        },
+        "color-document": {
+          "$value": "#520100"
+        },
+        "inverse-bg-default": {
+          "$value": "#cf1b07"
+        },
+        "inverse-bg-hover": {
+          "$value": "#a30500"
+        },
+        "inverse-color-default": {
+          "$value": "#ffffff"
+        }
+      },
+      "positive": {
+        "bg-default": {
+          "$value": "#d5e7d5"
+        },
+        "color-default": {
+          "$value": "#238541"
+        },
+        "color-document": {
+          "$value": "#002e0f"
+        },
+        "inverse-bg-default": {
+          "$value": "#238541"
+        },
+        "inverse-bg-hover": {
+          "$value": "#1e6c35"
+        },
+        "inverse-color-default": {
+          "$value": "#ffffff"
+        }
+      },
+      "warning": {
+        "bg-default": {
+          "$value": "#ffdcad"
+        },
+        "color-default": {
+          "$value": "#8a3500"
+        },
+        "color-document": {
+          "$value": "#8a3500"
+        },
+        "inverse-bg-default": {
+          "$value": "#8a3500"
+        },
+        "inverse-bg-hover": {
+          "$value": "#662700"
+        },
+        "inverse-color-default": {
+          "$value": "#ffffff"
+        }
+      }
+    }
+  }
+}
