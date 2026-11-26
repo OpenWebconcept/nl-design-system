@@ -3,6 +3,7 @@ import { create } from '@storybook/theming';
 
 addons.setConfig({
   theme: create({
+    base: 'light',
     brandTitle: 'Open Webconcept',
     colorPrimary: '#2FB298',
   }),
