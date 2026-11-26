@@ -53,7 +53,7 @@ const meta = {
     },
   },
   tags: ['autodocs'],
-  title: 'CSS Component/CardGroup',
+  title: 'React Component/CardGroup',
 } satisfies Meta<typeof CardGroup>;
 
 export default meta;

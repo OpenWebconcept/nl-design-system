@@ -21,7 +21,7 @@ const meta = {
     },
   },
   tags: ['autodocs'],
-  title: 'CSS Component/DescriptionList',
+  title: 'React Component/DescriptionList',
 } satisfies Meta<typeof DescriptionList>;
 
 export default meta;

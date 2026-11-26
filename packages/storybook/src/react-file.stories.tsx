@@ -20,7 +20,7 @@ const meta = {
     },
   },
   tags: ['autodocs'],
-  title: 'CSS Component/File',
+  title: 'React Component/File',
 } satisfies Meta<typeof File>;
 
 export default meta;
