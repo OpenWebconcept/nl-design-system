@@ -4,6 +4,11 @@ on:
   push:
     branches: main
 
+# Run one release at a time without cancelling the one in progress, so an older run can never update the release last.
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
 permissions: {}
 
 jobs:
