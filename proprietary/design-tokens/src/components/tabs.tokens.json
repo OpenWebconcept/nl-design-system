@@ -1,0 +1,87 @@
+{
+  "denhaag": {
+    "tabs": {
+      "border-color": {
+        "$value": "#ced4da"
+      },
+      "border-style": {
+        "$value": "solid"
+      },
+      "border-width": {
+        "$value": "2px"
+      },
+      "tab": {
+        "color": {
+          "$value": "{owc.color.secondary}"
+        },
+        "focus-color": {
+          "$value": "{owc.color.primary}"
+        },
+        "font-family": {
+          "$value": "{owc.typography.font-family.sans}"
+        },
+        "font-size": {
+          "$value": "{owc.typography.font-size.base}"
+        },
+        "font-weight": {
+          "$value": "400"
+        },
+        "gap": {
+          "$value": "8px"
+        },
+        "hover-color": {
+          "$value": "{owc.color.primary}"
+        },
+        "indicator": {
+          "border-color": {
+            "$value": "{owc.color.primary}"
+          },
+          "border-width": {
+            "$value": "2px"
+          }
+        },
+        "line-height": {
+          "$value": "{owc.typography.line-height.base}"
+        },
+        "outline": {
+          "$value": "{owc.focus.outline-width} {owc.focus.outline-style} {owc.color.primary}"
+        },
+        "padding-block-end": {
+          "$value": "8px"
+        },
+        "padding-block-start": {
+          "$value": "8px"
+        },
+        "padding-inline-end": {
+          "$value": "16px"
+        },
+        "padding-inline-start": {
+          "$value": "16px"
+        },
+        "panel": {
+          "outline": {
+            "$value": "{owc.focus.outline-width} {owc.focus.outline-style} {owc.color.primary}"
+          },
+          "padding-block-end": {
+            "$value": "0"
+          },
+          "padding-block-start": {
+            "$value": "16px"
+          },
+          "padding-inline-end": {
+            "$value": "0"
+          },
+          "padding-inline-start": {
+            "$value": "0"
+          }
+        },
+        "selected-color": {
+          "$value": "{owc.color.primary}"
+        },
+        "selected-font-weight": {
+          "$value": "700"
+        }
+      }
+    }
+  }
+}
