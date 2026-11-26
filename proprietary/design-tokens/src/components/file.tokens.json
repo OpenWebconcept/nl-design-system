@@ -1,0 +1,63 @@
+{
+  "denhaag": {
+    "file": {
+      "border-color": {
+        "$value": "#d1d1d1"
+      },
+      "border-radius": {
+        "$value": "0"
+      },
+      "border-style": {
+        "$value": "solid"
+      },
+      "border-width": {
+        "$value": "1px"
+      },
+      "focus-outline-color": {
+        "$value": "{owc.color.primary}"
+      },
+      "focus-outline-style": {
+        "$value": "{owc.focus.outline-style}"
+      },
+      "focus-outline-width": {
+        "$value": "{owc.focus.outline-width}"
+      },
+      "hover-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+      },
+      "left-background-color": {
+        "$value": "#f9f8f6"
+      },
+      "left-padding-inline-end": {
+        "$value": "12px"
+      },
+      "left-padding-inline-start": {
+        "$value": "12px"
+      },
+      "link-color": {
+        "$value": "{owc.color.primary}"
+      },
+      "link-gap": {
+        "$value": "4px"
+      },
+      "link-icon-width": {
+        "$value": "20px"
+      },
+      "right-gap": {
+        "$value": "8px"
+      },
+      "right-padding-block-end": {
+        "$value": "12px"
+      },
+      "right-padding-block-start": {
+        "$value": "12px"
+      },
+      "right-padding-inline-end": {
+        "$value": "12px"
+      },
+      "right-padding-inline-start": {
+        "$value": "12px"
+      }
+    }
+  }
+}
