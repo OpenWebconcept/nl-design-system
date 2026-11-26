@@ -1,0 +1,58 @@
+name: publish
+
+on:
+  push:
+    branches: main
+
+# Run one release at a time without cancelling the one in progress, so an older run can never update the release last.
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions: {}
+
+jobs:
+  publish:
+    if: ${{ github.repository != 'nl-design-system/example' }}
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # push the changesets release branch and publish tags
+      pull-requests: write # create and update the release PR
+      id-token: write # npm Trusted Publishing (OIDC) + provenance
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Install pnpm package manager
+        uses: pnpm/action-setup@73e46992e05b19abd31f2f3c20e0e7370d762115 # v6.1.1
+
+      - name: Set up Node.js version and cache
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm run build
+
+      - name: Publish to the npm Registry
+        uses: changesets/action@e0145edc7d9d8679003495b11f87bd8ef63c0cba # v1.5.3
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GIT_AUTHOR_EMAIL: ${{ secrets.GIT_AUTHOR_EMAIL }}
+          GIT_AUTHOR_NAME: "NL Design System"
+          GIT_COMMITTER_EMAIL: ${{ secrets.GIT_COMMITTER_EMAIL }}
+          GIT_COMMITTER_NAME: "NL Design System"
+        with:
+          commit: "docs(release): design system packages"
+          # Let GitHub create and sign the release commits and tags, as the signed-commits rule on main requires.
+          commitMode: github-api
+          setupGitUser: false
+          title: "docs(release): design system packages"
+          publish: "pnpm run changeset:publish"
