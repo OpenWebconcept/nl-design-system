@@ -1,0 +1,42 @@
+{
+  "nl": {
+    "number-badge": {
+      "background-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary} 12%, #ffffff)"
+      },
+      "border-color": {
+        "$value": "transparent"
+      },
+      "border-radius": {
+        "$value": "50px"
+      },
+      "border-width": {
+        "$value": "0"
+      },
+      "color": {
+        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+      },
+      "font-family": {
+        "$value": "{owc.typography.font-family.sans}"
+      },
+      "font-size": {
+        "$value": "{owc.typography.font-size.sm}"
+      },
+      "font-weight": {
+        "$value": "700"
+      },
+      "min-block-size": {
+        "$value": "24px"
+      },
+      "min-inline-size": {
+        "$value": "24px"
+      },
+      "padding-block": {
+        "$value": "5px"
+      },
+      "padding-inline": {
+        "$value": "6px"
+      }
+    }
+  }
+}
