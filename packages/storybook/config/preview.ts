@@ -7,6 +7,7 @@ import '@openwebconcept/theme-hoeksche-waard/dist/index.css';
 import '@openwebconcept/theme-leiden/dist/index.css';
 import '@openwebconcept/theme-noordwijk/dist/index.css';
 import '@openwebconcept/theme-ridderkerk/dist/index.css';
+import '@openwebconcept/theme-roosendaal/dist/index.css';
 import type { Preview } from '@storybook/react-vite';
 import { defineCustomElements } from '@openwebconcept/web-components-stencil/loader/index.js';
 import { withThemeByClassName } from '@storybook/addon-themes';
@@ -29,6 +30,7 @@ const preview: Preview = {
         noordwijk: 'theme-noordwijk',
         openwebconcept: 'theme-owc',
         ridderkerk: 'theme-ridderkerk',
+        roosendaal: 'theme-roosendaal',
       },
     }),
   ],
