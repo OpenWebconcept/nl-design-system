@@ -19,7 +19,7 @@ const meta = {
     },
   },
   tags: ['autodocs'],
-  title: 'CSS Component/CaseCard',
+  title: 'React Component/CaseCard',
 } satisfies Meta<typeof CaseCard>;
 
 export default meta;

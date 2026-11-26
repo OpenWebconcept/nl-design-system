@@ -192,6 +192,9 @@ importers:
 
   packages/storybook:
     dependencies:
+      '@babel/runtime':
+        specifier: 7.28.6
+        version: 7.28.6
       '@gemeente-denhaag/alert':
         specifier: 4.1.5
         version: 4.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -216,6 +219,9 @@ importers:
       '@nl-design-system-candidate/button-css':
         specifier: 1.1.0
         version: 1.1.0
+      '@nl-design-system-candidate/button-react':
+        specifier: 1.1.0
+        version: 1.1.0(@babel/runtime@7.28.6)(react@18.3.1)
     devDependencies:
       '@babel/core':
         specifier: 7.29.6
@@ -2057,6 +2063,12 @@ packages:
 
   '@nl-design-system-candidate/button-css@1.1.0':
     resolution: {integrity: sha512-w0JLQyiPL9UrfRwzu3Mq2EWbYvAJbolepeFH4ggyBFXoYm9RMWX6vWb/8Oj999GzAF6N77LlES5jUnaR3BJ7Yw==}
+
+  '@nl-design-system-candidate/button-react@1.1.0':
+    resolution: {integrity: sha512-Zi2QGpAq6/AWkL0hf9BNcNp8AQUV5yyDcKw7WDBuZ3W0ci/EF46ZfvntTbbBpHX09lYqS6F4Vf7hPGh1BdGxTg==}
+    peerDependencies:
+      '@babel/runtime': ^7
+      react: ^18 || ^19
 
   '@nl-design-system/eslint-config@2.2.0':
     resolution: {integrity: sha512-vZVbEkOQviJoiOdQT5zOi0GuSCaFrcz9/Awg/iXsmaNoXLkD5WOPVXR7RNlqeP4fPRmrHUvnVPsTDKLeIwbn2w==}
@@ -9295,6 +9307,12 @@ snapshots:
     optional: true
 
   '@nl-design-system-candidate/button-css@1.1.0': {}
+
+  '@nl-design-system-candidate/button-react@1.1.0(@babel/runtime@7.28.6)(react@18.3.1)':
+    dependencies:
+      '@babel/runtime': 7.28.6
+      clsx: 2.1.1
+      react: 18.3.1
 
   '@nl-design-system/eslint-config@2.2.0(eslint@9.39.2)(typescript@5.9.3)':
     dependencies:

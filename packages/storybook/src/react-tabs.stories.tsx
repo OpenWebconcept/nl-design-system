@@ -35,7 +35,7 @@ const meta = {
     },
   },
   tags: ['autodocs'],
-  title: 'CSS Component/Tabs',
+  title: 'React Component/Tabs',
 } satisfies Meta<typeof Tabs>;
 
 export default meta;

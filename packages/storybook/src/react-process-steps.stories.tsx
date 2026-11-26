@@ -38,7 +38,7 @@ const meta = {
     },
   },
   tags: ['autodocs'],
-  title: 'CSS Component/ProcessSteps',
+  title: 'React Component/ProcessSteps',
 } as Meta<typeof Status>;
 
 export default meta;
