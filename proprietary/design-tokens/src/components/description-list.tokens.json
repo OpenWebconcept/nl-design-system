@@ -2,10 +2,10 @@
   "denhaag": {
     "description-list": {
       "border-color": {
-        "$value": "#d1d1d1"
+        "$value": "{basis.color.default.border-default}"
       },
       "caption-color": {
-        "$value": "#000000"
+        "$value": "{basis.color.default.color-document}"
       },
       "caption-font-family": {
         "$value": "{owc.typography.font-family.sans}"
@@ -23,7 +23,7 @@
         "$value": "24px"
       },
       "color": {
-        "$value": "#4a4a4a"
+        "$value": "{basis.color.default.color-subtle}"
       },
       "detail-padding-block-end": {
         "$value": "12px"
@@ -74,7 +74,7 @@
         "$value": "8px"
       },
       "title-color": {
-        "$value": "#2e2e2e"
+        "$value": "{basis.color.default.color-document}"
       },
       "title-font-weight": {
         "$value": "700"

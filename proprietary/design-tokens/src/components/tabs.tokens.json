@@ -2,7 +2,7 @@
   "denhaag": {
     "tabs": {
       "border-color": {
-        "$value": "#ced4da"
+        "$value": "{basis.color.default.border-default}"
       },
       "border-style": {
         "$value": "solid"

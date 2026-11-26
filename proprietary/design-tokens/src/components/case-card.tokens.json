@@ -20,7 +20,7 @@
         "$value": "{owc.color.primary}"
       },
       "archived-action-color": {
-        "$value": "#4a4a4a"
+        "$value": "{basis.color.default.color-subtle}"
       },
       "archived-background-background-color": {
         "$value": "#f2f2f2"
@@ -29,16 +29,16 @@
         "$value": "#d1d1d1"
       },
       "archived-color": {
-        "$value": "#4a4a4a"
+        "$value": "{basis.color.default.color-subtle}"
       },
       "archived-context-color": {
-        "$value": "#4a4a4a"
+        "$value": "{basis.color.default.color-subtle}"
       },
       "archived-subtitle-color": {
-        "$value": "#4a4a4a"
+        "$value": "{basis.color.default.color-subtle}"
       },
       "archived-title-color": {
-        "$value": "#2e2e2e"
+        "$value": "{basis.color.default.color-document}"
       },
       "background-background-color": {
         "$value": "color-mix(in srgb, {owc.color.primary} 10%, #ffffff)"
@@ -60,7 +60,7 @@
           "$value": "#f2f2f2"
         },
         "border-color": {
-          "$value": "#d1d1d1"
+          "$value": "{basis.color.default.border-default}"
         },
         "border-style": {
           "$value": "solid"
@@ -69,16 +69,16 @@
           "$value": "1px"
         },
         "context-color": {
-          "$value": "#4a4a4a"
+          "$value": "{basis.color.default.color-subtle}"
         },
         "footer-gap": {
           "$value": "20px"
         },
         "subtitle-color": {
-          "$value": "#4a4a4a"
+          "$value": "{basis.color.default.color-subtle}"
         },
         "title-color": {
-          "$value": "#2e2e2e"
+          "$value": "{basis.color.default.color-document}"
         },
         "title-font-size": {
           "$value": "{owc.typography.font-size.xl}"
