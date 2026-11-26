@@ -34,6 +34,7 @@
     "@openwebconcept/theme-noordwijk": "workspace:*",
     "@openwebconcept/theme-ridderkerk": "workspace:*",
     "@openwebconcept/theme-roosendaal": "workspace:*",
+    "@openwebconcept/theme-sudwest-fryslan": "workspace:*",
     "@openwebconcept/web-components-react": "workspace:*",
     "@openwebconcept/web-components-stencil": "workspace:*",
     "@storybook/addon-a11y": "10.6.6",
@@ -50,7 +51,7 @@
     "rimraf": "6.1.3",
     "storybook": "10.6.6",
     "typescript": "5.9.3",
-    "vite": "6.4.1"
+    "vite": "6.4.5"
   },
   "dependencies": {
     "@gemeente-denhaag/alert": "4.1.5",
