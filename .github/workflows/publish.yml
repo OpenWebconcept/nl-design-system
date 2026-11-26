@@ -4,6 +4,11 @@ on:
   push:
     branches: main
 
+# Run one release at a time without cancelling the one in progress, so an older run can never update the release last.
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
 permissions: {}
 
 jobs:
@@ -46,6 +51,8 @@ jobs:
           GIT_COMMITTER_NAME: "NL Design System"
         with:
           commit: "docs(release): design system packages"
+          # Let GitHub create and sign the release commits and tags, as the signed-commits rule on main requires.
+          commitMode: github-api
           setupGitUser: false
           title: "docs(release): design system packages"
           publish: "pnpm run changeset:publish"
