@@ -275,7 +275,19 @@
           "outline-color": {
             "$value": "{owc.color.danger}"
           }
+        },
+        "outline-color": {
+          "$value": "#ced4da"
         }
+      },
+      "background-color": {
+        "$value": "#ffffff"
+      },
+      "color": {
+        "$value": "#000000"
+      },
+      "connector-color": {
+        "$value": "#ced4da"
       }
     }
   },
