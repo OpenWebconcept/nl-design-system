@@ -128,5 +128,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Build
+        run: pnpm run --if-present build
+
+      - name: Install Chromium for the Storybook tests
+        run: pnpm --filter @openwebconcept/storybook exec playwright install --with-deps chromium
+
       - name: Test
         run: pnpm run test
