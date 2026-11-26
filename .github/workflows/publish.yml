@@ -46,6 +46,8 @@ jobs:
           GIT_COMMITTER_NAME: "NL Design System"
         with:
           commit: "docs(release): design system packages"
+          # Let GitHub create and sign the release commits and tags, as the signed-commits rule on main requires.
+          commitMode: github-api
           setupGitUser: false
           title: "docs(release): design system packages"
           publish: "pnpm run changeset:publish"
