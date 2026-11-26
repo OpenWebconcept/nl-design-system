@@ -36,7 +36,7 @@
       },
       "step-heading": {
         "color": {
-          "$value": "#000000"
+          "$value": "{basis.color.default.color-document}"
         },
         "font-family": {
           "$value": "{owc.typography.font-family.sans}"
@@ -55,12 +55,12 @@
         },
         "not-checked": {
           "color": {
-            "$value": "#000000"
+            "$value": "{basis.color.default.color-document}"
           }
         },
         "checked": {
           "color": {
-            "$value": "#000000"
+            "$value": "{basis.color.default.color-document}"
           },
           "font-size": {
             "$value": "{owc.typography.font-size.xl}"
@@ -88,25 +88,25 @@
         },
         "warning": {
           "color": {
-            "$value": "#f97316"
+            "$value": "{basis.color.warning.color-default}"
           }
         },
         "error": {
           "color": {
-            "$value": "{owc.color.danger}"
+            "$value": "{basis.color.negative.color-default}"
           }
         }
       },
       "step-meta": {
         "color": {
-          "$value": "#000000"
+          "$value": "{basis.color.default.color-document}"
         },
         "font-size": {
           "$value": "16px"
         },
         "date": {
           "color": {
-            "$value": "#000000"
+            "$value": "{basis.color.default.color-document}"
           },
           "font-size": {
             "$value": "{owc.typography.font-size.sm}"
@@ -123,7 +123,7 @@
       },
       "step-content": {
         "color": {
-          "$value": "#ced4da"
+          "$value": "{basis.color.default.border-default}"
         }
       }
     },
@@ -160,16 +160,16 @@
       },
       "default": {
         "background-color": {
-          "$value": "#ced4da"
+          "$value": "{basis.color.default.border-default}"
         },
         "border-color": {
-          "$value": "#ced4da"
+          "$value": "{basis.color.default.border-default}"
         },
         "color": {
           "$value": "#ffffff"
         },
         "nested-color": {
-          "$value": "#ced4da"
+          "$value": "{basis.color.default.border-default}"
         }
       },
       "checked": {
@@ -202,18 +202,18 @@
           "$value": "#ffffff"
         },
         "border-color": {
-          "$value": "#ced4da"
+          "$value": "{basis.color.default.border-default}"
         },
         "color": {
-          "$value": "#000000"
+          "$value": "{basis.color.default.color-document}"
         }
       },
       "disabled": {
         "background-color": {
-          "$value": "#ced4da"
+          "$value": "{basis.color.disabled.bg-default}"
         },
         "border-color": {
-          "$value": "#ced4da"
+          "$value": "{basis.color.disabled.border-default}"
         },
         "color": {
           "$value": "#343a40"
@@ -221,30 +221,33 @@
       },
       "warning": {
         "background-color": {
-          "$value": "#f97316"
+          "$value": "{basis.color.warning.inverse-bg-default}"
         },
         "border-color": {
-          "$value": "#f97316"
+          "$value": "{basis.color.warning.border-default}"
         },
         "color": {
-          "$value": "#ffffff"
+          "$value": "{basis.color.warning.inverse-color-default}"
         },
         "nested-background-color": {
           "$value": "#ffffff"
         },
         "nested-border-color": {
-          "$value": "#f97316"
+          "$value": "{basis.color.warning.border-default}"
+        },
+        "nested-color": {
+          "$value": "{basis.color.warning.color-default}"
         }
       },
       "error": {
         "background-color": {
-          "$value": "{owc.color.danger}"
+          "$value": "{basis.color.negative.inverse-bg-default}"
         },
         "border-color": {
-          "$value": "{owc.color.danger}"
+          "$value": "{basis.color.negative.border-default}"
         },
         "color": {
-          "$value": "#ffffff"
+          "$value": "{basis.color.negative.inverse-color-default}"
         }
       },
       "connector": {
@@ -253,12 +256,12 @@
         },
         "default": {
           "outline-color": {
-            "$value": "#ced4da"
+            "$value": "{basis.color.default.border-default}"
           }
         },
         "not-checked": {
           "outline-color": {
-            "$value": "#ced4da"
+            "$value": "{basis.color.default.border-default}"
           }
         },
         "checked": {
@@ -268,26 +271,26 @@
         },
         "warning": {
           "outline-color": {
-            "$value": "#fb923c"
+            "$value": "{basis.color.warning.border-default}"
           }
         },
         "error": {
           "outline-color": {
-            "$value": "{owc.color.danger}"
+            "$value": "{basis.color.negative.border-default}"
           }
         },
         "outline-color": {
-          "$value": "#ced4da"
+          "$value": "{basis.color.default.border-default}"
         }
       },
       "background-color": {
         "$value": "#ffffff"
       },
       "color": {
-        "$value": "#000000"
+        "$value": "{basis.color.default.color-document}"
       },
       "connector-color": {
-        "$value": "#ced4da"
+        "$value": "{basis.color.default.border-default}"
       }
     }
   },

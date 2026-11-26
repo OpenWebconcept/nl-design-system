@@ -2,7 +2,7 @@
   "denhaag": {
     "file": {
       "border-color": {
-        "$value": "#d1d1d1"
+        "$value": "{basis.color.default.border-default}"
       },
       "border-radius": {
         "$value": "0"

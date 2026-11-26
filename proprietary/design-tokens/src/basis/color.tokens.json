@@ -1,6 +1,28 @@
 {
   "basis": {
     "color": {
+      "default": {
+        "border-default": {
+          "$value": "#d1d1d1"
+        },
+        "color-document": {
+          "$value": "#000000"
+        },
+        "color-subtle": {
+          "$value": "#4a4a4a"
+        }
+      },
+      "disabled": {
+        "bg-default": {
+          "$value": "#ced4da"
+        },
+        "border-default": {
+          "$value": "#ced4da"
+        },
+        "color-default": {
+          "$value": "#6c757d"
+        }
+      },
       "info": {
         "bg-default": {
           "$value": "color-mix(in srgb, {owc.color.primary} 12%, #ffffff)"
@@ -24,6 +46,9 @@
       "negative": {
         "bg-default": {
           "$value": "#ffd9d6"
+        },
+        "border-default": {
+          "$value": "#cf1b07"
         },
         "color-default": {
           "$value": "#cf1b07"
@@ -64,6 +89,9 @@
       "warning": {
         "bg-default": {
           "$value": "#ffdcad"
+        },
+        "border-default": {
+          "$value": "#8a3500"
         },
         "color-default": {
           "$value": "#8a3500"

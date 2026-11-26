@@ -2,7 +2,7 @@
   "denhaag": {
     "link": {
       "disabled-color": {
-        "$value": "#7a7a7a"
+        "$value": "{basis.color.disabled.color-default}"
       },
       "external-icon-align": {
         "$value": "center"
@@ -45,7 +45,7 @@
         "$value": "{owc.color.primary}"
       },
       "disabled-color": {
-        "$value": "#7a7a7a"
+        "$value": "{basis.color.disabled.color-default}"
       },
       "focus-visible-color": {
         "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"

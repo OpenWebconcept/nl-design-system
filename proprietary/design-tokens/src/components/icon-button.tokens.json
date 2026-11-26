@@ -2,7 +2,7 @@
   "denhaag": {
     "icon-button": {
       "color": {
-        "$value": "#4a4a4a"
+        "$value": "{basis.color.default.color-subtle}"
       },
       "focus-color": {
         "$value": "{owc.color.primary}"

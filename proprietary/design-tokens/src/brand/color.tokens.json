@@ -8,13 +8,16 @@
         "$value": "#4d4d4d"
       },
       "success": {
-        "$value": "#28a745"
+        "$value": "#28a745",
+        "$deprecated": "Use `basis.color.positive.*` instead; removed in the next major version."
       },
       "warning": {
-        "$value": "#ffc107"
+        "$value": "#ffc107",
+        "$deprecated": "Use `basis.color.warning.*` instead; removed in the next major version."
       },
       "danger": {
-        "$value": "#dc3545"
+        "$value": "#dc3545",
+        "$deprecated": "Use `basis.color.negative.*` instead; removed in the next major version."
       }
     }
   }

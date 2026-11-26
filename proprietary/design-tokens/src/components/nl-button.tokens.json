@@ -26,8 +26,8 @@
         },
         "disabled": {
           "background-color": { "$value": "transparent" },
-          "border-color": { "$value": "#ced4da" },
-          "color": { "$value": "#6c757d" }
+          "border-color": { "$value": "{basis.color.disabled.border-default}" },
+          "color": { "$value": "{basis.color.disabled.color-default}" }
         },
         "focus": {
           "background-color": { "$value": "{owc.color.primary}" },
@@ -53,9 +53,9 @@
           "color": { "$value": "#ffffff" }
         },
         "disabled": {
-          "background-color": { "$value": "#ced4da" },
-          "border-color": { "$value": "#ced4da" },
-          "color": { "$value": "#6c757d" }
+          "background-color": { "$value": "{basis.color.disabled.bg-default}" },
+          "border-color": { "$value": "{basis.color.disabled.border-default}" },
+          "color": { "$value": "{basis.color.disabled.color-default}" }
         }
       },
       "secondary": {
@@ -77,8 +77,8 @@
         },
         "disabled": {
           "background-color": { "$value": "transparent" },
-          "border-color": { "$value": "#ced4da" },
-          "color": { "$value": "#6c757d" }
+          "border-color": { "$value": "{basis.color.disabled.border-default}" },
+          "color": { "$value": "{basis.color.disabled.color-default}" }
         }
       },
       "subtle": {
@@ -101,7 +101,7 @@
         "disabled": {
           "background-color": { "$value": "transparent" },
           "border-color": { "$value": "transparent" },
-          "color": { "$value": "#6c757d" }
+          "color": { "$value": "{basis.color.disabled.color-default}" }
         }
       },
       "focus": {
