@@ -8,13 +8,13 @@ import { Component, h } from '@stencil/core';
 @Component({
   shadow: true,
   styleUrl: 'index.scss',
-  tag: 'example-button',
+  tag: 'owc-example-button',
 })
 export class Button {
   render() {
     return (
-      <button class="example-button" type="button">
-        <span class="example-button__text">
+      <button class="owc-example-button" type="button">
+        <span class="owc-example-button__text">
           <slot></slot>
         </span>
       </button>
