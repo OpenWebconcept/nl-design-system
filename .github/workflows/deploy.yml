@@ -4,6 +4,11 @@ on:
   push:
     branches: main
 
+# Run one deployment at a time without cancelling the one in progress, so an older build can never finish last.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 permissions: {}
 
 jobs:
