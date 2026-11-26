@@ -1,0 +1,27 @@
+{
+  "denhaag": {
+    "card-group": {
+      "gap": {
+        "$value": "32px"
+      },
+      "l-gap": {
+        "$value": "32px"
+      },
+      "m-gap": {
+        "$value": "24px"
+      },
+      "margin-block": {
+        "$value": "20px"
+      },
+      "margin-inline": {
+        "$value": "0"
+      },
+      "s-gap": {
+        "$value": "16px"
+      },
+      "xl-gap": {
+        "$value": "40px"
+      }
+    }
+  }
+}
