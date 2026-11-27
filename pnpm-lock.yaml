@@ -500,6 +500,10 @@ importers:
         version: 5.4.4
 
   proprietary/theme-leiden:
+    dependencies:
+      '@fontsource/open-sans':
+        specifier: 5.3.0
+        version: 5.3.0
     devDependencies:
       '@openwebconcept/design-tokens':
         specifier: workspace:*
@@ -555,6 +559,10 @@ importers:
         version: 5.4.4
 
   proprietary/theme-ridderkerk:
+    dependencies:
+      '@fontsource/open-sans':
+        specifier: 5.3.0
+        version: 5.3.0
     devDependencies:
       '@openwebconcept/design-tokens':
         specifier: workspace:*
@@ -1730,6 +1738,9 @@ packages:
 
   '@fontsource/lato@5.2.7':
     resolution: {integrity: sha512-k5mum1ADbDW5cTw1Ett1eQVWeoZ6gq0ct6SFBibEhB4LRxhniChJZTBgd6ph5yBxLkN1fcnsnmicBNA4S/3nbw==}
+
+  '@fontsource/open-sans@5.3.0':
+    resolution: {integrity: sha512-V1bdMlGNyZrJwzrdusshMOw2YR0aqYDL7kOo9dkxUEKl8dFv66A9HLckOOXl572sG/7ohhDQrCrTFGSn9LZcSw==}
 
   '@fontsource/roboto-slab@5.2.8':
     resolution: {integrity: sha512-8+iMCsoUZsDwQUe5omwCp7JPNTVdyAgay5AdhmnFZPEVIVabujrmYaFkSuZ1+GUemPEWlzEQ6aQkg2mPL84SAA==}
@@ -8933,6 +8944,8 @@ snapshots:
       storybook: 10.6.6(@types/react@18.3.28)(prettier@3.8.1)(react@18.3.1)
 
   '@fontsource/lato@5.2.7': {}
+
+  '@fontsource/open-sans@5.3.0': {}
 
   '@fontsource/roboto-slab@5.2.8': {}
 
