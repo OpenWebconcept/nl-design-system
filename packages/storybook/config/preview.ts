@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 import '@openwebconcept/theme-owc/dist/index.css';
 import '@openwebconcept/theme-barendrecht/dist/index.css';
 import '@openwebconcept/theme-de-fryske-marren/dist/index.css';
@@ -16,26 +17,29 @@ import { ParametersArgsDecorator } from './ParametersArgsDecorator';
 
 defineCustomElements();
 
+const themes: Record<string, string> = {
+  barendrecht: 'theme-barendrecht',
+  'de-fryske-marren': 'theme-de-fryske-marren',
+  'gooise-meren': 'theme-gooise-meren',
+  gouda: 'theme-gouda',
+  'hoeksche-waard': 'theme-hoeksche-waard',
+  leiden: 'theme-leiden',
+  noordwijk: 'theme-noordwijk',
+  openwebconcept: 'theme-owc',
+  ridderkerk: 'theme-ridderkerk',
+  roosendaal: 'theme-roosendaal',
+  'sudwest-fryslan': 'theme-sudwest-fryslan',
+};
+
+// Start in the theme named by `STORYBOOK_THEME`, so `STORYBOOK_THEME=gouda pnpm test` tests the stories in Gouda.
+const defaultTheme: string = import.meta.env['STORYBOOK_THEME'] || 'openwebconcept';
+
+if (!(defaultTheme in themes)) {
+  throw new Error(`Unknown STORYBOOK_THEME "${defaultTheme}", use one of: ${Object.keys(themes).join(', ')}`);
+}
+
 const preview: Preview = {
-  decorators: [
-    ParametersArgsDecorator,
-    withThemeByClassName({
-      defaultTheme: 'openwebconcept',
-      themes: {
-        barendrecht: 'theme-barendrecht',
-        'de-fryske-marren': 'theme-de-fryske-marren',
-        'gooise-meren': 'theme-gooise-meren',
-        gouda: 'theme-gouda',
-        'hoeksche-waard': 'theme-hoeksche-waard',
-        leiden: 'theme-leiden',
-        noordwijk: 'theme-noordwijk',
-        openwebconcept: 'theme-owc',
-        ridderkerk: 'theme-ridderkerk',
-        roosendaal: 'theme-roosendaal',
-        'sudwest-fryslan': 'theme-sudwest-fryslan',
-      },
-    }),
-  ],
+  decorators: [ParametersArgsDecorator, withThemeByClassName({ defaultTheme, themes })],
   parameters: {
     a11y: {
       // Fail `pnpm test` on accessibility violations found by axe-core.
