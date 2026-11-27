@@ -15,7 +15,7 @@ The values were measured on [roosendaal.nl](https://www.roosendaal.nl/) (theme s
 | `owc.button.*`                    | radius 0.375rem, padding 1.35em 1.77em, `clamp(0.938rem, …, 1.125rem)`, weight 500                   | buttons                             |
 | `owc.focus.outline-offset`        | 4px                                                                                                  | the focus outline                   |
 | `denhaag.button.primary-action.*` | `#f9b000` with black text, hover `#e8a200`                                                           | the primary (yellow) button         |
-| `nl.button.primary.*`             | `#f9b000` with black text, hover and active `#e8a200`                                                | the primary (yellow) button         |
+| `nl.button.*`                     | `#f9b000` with black text, hover, active and focus `#e8a200`                                         | the primary (yellow) button         |
 
 There is no Roosendaal set in the NL Design System themes repository. The [Conduction set](https://github.com/ConductionNL/conduction-theme/tree/main/municipalities/roosendaal-design-tokens) is out of date: it uses the green `#238527` as primary colour, a green button without rounded corners and Source Sans for body text. The website now uses the darker green `#046a38`, a yellow primary button with rounded corners and museo-sans for all text, so the website is the source here.
 

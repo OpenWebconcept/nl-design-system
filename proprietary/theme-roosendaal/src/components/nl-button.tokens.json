@@ -15,6 +15,11 @@
           "border-color": { "$value": "#e8a200" },
           "color": { "$value": "#000000" }
         }
+      },
+      "focus": {
+        "background-color": { "$value": "#e8a200" },
+        "border-color": { "$value": "#e8a200" },
+        "color": { "$value": "#000000" }
       }
     }
   }
