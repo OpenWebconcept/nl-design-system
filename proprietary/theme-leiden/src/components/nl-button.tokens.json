@@ -1,0 +1,18 @@
+{
+  "nl": {
+    "button": {
+      "primary": {
+        "background-color": { "$value": "#d62410" },
+        "border-color": { "$value": "#d62410" },
+        "hover": {
+          "background-color": { "$value": "#a91c09" },
+          "border-color": { "$value": "#a91c09" }
+        },
+        "active": {
+          "background-color": { "$value": "#a91c09" },
+          "border-color": { "$value": "#a91c09" }
+        }
+      }
+    }
+  }
+}
