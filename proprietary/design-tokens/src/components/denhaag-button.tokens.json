@@ -8,7 +8,7 @@
         "$value": "{owc.button.border-width}"
       },
       "font-family": {
-        "$value": "{owc.typography.font-family.sans}"
+        "$value": "{basis.text.font-family.default}"
       },
       "font-size": {
         "$value": "{owc.button.font-size}"

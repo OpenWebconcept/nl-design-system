@@ -2,10 +2,10 @@
   "denhaag": {
     "process-steps": {
       "font-family": {
-        "$value": "{owc.typography.font-family.sans}"
+        "$value": "{basis.text.font-family.default}"
       },
       "font-size": {
-        "$value": "{owc.typography.font-size.base}"
+        "$value": "{basis.text.font-size.md}"
       },
       "line-height": {
         "$value": "24px"
@@ -39,7 +39,7 @@
           "$value": "{basis.color.default.color-document}"
         },
         "font-family": {
-          "$value": "{owc.typography.font-family.sans}"
+          "$value": "{basis.text.font-family.default}"
         },
         "font-size": {
           "$value": "{basis.text.font-size.xl}"
@@ -48,7 +48,7 @@
           "$value": "400"
         },
         "line-height": {
-          "$value": "{owc.typography.line-height.base}"
+          "$value": "{basis.text.line-height.md}"
         },
         "overflow-wrap": {
           "$value": "anywhere"
@@ -69,7 +69,7 @@
             "$value": "700"
           },
           "line-height": {
-            "$value": "{owc.typography.line-height.base}"
+            "$value": "{basis.text.line-height.md}"
           }
         },
         "current": {
@@ -83,7 +83,7 @@
             "$value": "700"
           },
           "line-height": {
-            "$value": "{owc.typography.line-height.base}"
+            "$value": "{basis.text.line-height.md}"
           }
         },
         "warning": {
@@ -109,7 +109,7 @@
             "$value": "{basis.color.default.color-document}"
           },
           "font-size": {
-            "$value": "{owc.typography.font-size.sm}"
+            "$value": "{basis.text.font-size.sm}"
           }
         },
         "nested": {
@@ -153,10 +153,10 @@
         "$value": "10px"
       },
       "font-family": {
-        "$value": "{owc.typography.font-family.sans}"
+        "$value": "{basis.text.font-family.default}"
       },
       "font-size": {
-        "$value": "{owc.typography.font-size.sm}"
+        "$value": "{basis.text.font-size.sm}"
       },
       "default": {
         "background-color": {
@@ -304,7 +304,7 @@
           "$value": "auto"
         },
         "font-size": {
-          "$value": "{owc.typography.font-size.base}"
+          "$value": "{basis.text.font-size.md}"
         }
       },
       "padding-block-start": {

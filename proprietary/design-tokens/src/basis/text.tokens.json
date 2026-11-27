@@ -1,7 +1,15 @@
 {
   "basis": {
     "text": {
+      "font-family": {
+        "default": {
+          "$value": "{owc.typography.font-family.sans}"
+        }
+      },
       "font-size": {
+        "sm": {
+          "$value": "{owc.typography.font-size.sm}"
+        },
         "md": {
           "$value": "{owc.typography.font-size.base}"
         },
@@ -19,6 +27,11 @@
         },
         "4xl": {
           "$value": "{owc.typography.font-size.4xl}"
+        }
+      },
+      "line-height": {
+        "md": {
+          "$value": "{owc.typography.line-height.base}"
         }
       }
     }

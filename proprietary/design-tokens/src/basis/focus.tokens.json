@@ -1,0 +1,18 @@
+{
+  "basis": {
+    "focus": {
+      "outline-color": {
+        "$value": "{owc.color.primary}"
+      },
+      "outline-offset": {
+        "$value": "{owc.focus.outline-offset}"
+      },
+      "outline-style": {
+        "$value": "{owc.focus.outline-style}"
+      },
+      "outline-width": {
+        "$value": "{owc.focus.outline-width}"
+      }
+    }
+  }
+}

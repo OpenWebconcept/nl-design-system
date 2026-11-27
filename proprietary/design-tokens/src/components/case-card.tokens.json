@@ -2,7 +2,7 @@
   "common": {
     "border-width": {
       "xl": {
-        "$value": "{owc.focus.outline-width}"
+        "$value": "{basis.focus.outline-width}"
       }
     }
   },
@@ -84,7 +84,7 @@
           "$value": "{basis.color.default.color-document}"
         },
         "title-font-size": {
-          "$value": "{owc.typography.font-size.lg}"
+          "$value": "{basis.text.font-size.lg}"
         },
         "wrapper": {
           "flex-direction": {
@@ -117,7 +117,7 @@
         "$value": "{basis.color.default.color-document}"
       },
       "subtitle-font-family": {
-        "$value": "{owc.typography.font-family.sans}"
+        "$value": "{basis.text.font-family.default}"
       },
       "subtitle-font-size": {
         "$value": "{basis.text.font-size.md}"
@@ -135,7 +135,7 @@
         "$value": "{basis.color.default.color-document}"
       },
       "title-font-family": {
-        "$value": "{owc.typography.font-family.sans}"
+        "$value": "{basis.text.font-family.default}"
       },
       "title-font-size": {
         "$value": "{basis.text.font-size.2xl}"
@@ -164,7 +164,7 @@
     },
     "color": {
       "ocher-700": {
-        "$value": "{owc.color.primary}"
+        "$value": "{basis.focus.outline-color}"
       }
     }
   }
