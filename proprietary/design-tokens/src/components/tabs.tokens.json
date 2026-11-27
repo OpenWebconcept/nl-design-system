@@ -12,7 +12,10 @@
       },
       "tab": {
         "color": {
-          "$value": "{owc.color.secondary}"
+          "$value": "{basis.color.default.color-default}"
+        },
+        "cursor": {
+          "$value": "pointer"
         },
         "focus-color": {
           "$value": "{owc.color.primary}"
@@ -24,13 +27,13 @@
           "$value": "{owc.typography.font-size.base}"
         },
         "font-weight": {
-          "$value": "400"
+          "$value": "500"
         },
         "gap": {
           "$value": "8px"
         },
         "hover-color": {
-          "$value": "{owc.color.primary}"
+          "$value": "{basis.color.default.color-hover}"
         },
         "indicator": {
           "border-color": {
@@ -38,25 +41,28 @@
           },
           "border-width": {
             "$value": "2px"
+          },
+          "bottom": {
+            "$value": "0"
           }
         },
         "line-height": {
-          "$value": "{owc.typography.line-height.base}"
+          "$value": "1.5"
         },
         "outline": {
           "$value": "{owc.focus.outline-width} {owc.focus.outline-style} {owc.color.primary}"
         },
         "padding-block-end": {
-          "$value": "8px"
+          "$value": "0.75rem"
         },
         "padding-block-start": {
-          "$value": "8px"
+          "$value": "0.75rem"
         },
         "padding-inline-end": {
-          "$value": "16px"
+          "$value": "1rem"
         },
         "padding-inline-start": {
-          "$value": "16px"
+          "$value": "1rem"
         },
         "panel": {
           "outline": {
@@ -79,8 +85,11 @@
           "$value": "{owc.color.primary}"
         },
         "selected-font-weight": {
-          "$value": "700"
+          "$value": "600"
         }
+      },
+      "width": {
+        "$value": "100%"
       }
     }
   }

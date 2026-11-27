@@ -42,7 +42,7 @@
           "$value": "{owc.typography.font-family.sans}"
         },
         "font-size": {
-          "$value": "{owc.typography.font-size.xl}"
+          "$value": "{basis.text.font-size.xl}"
         },
         "font-weight": {
           "$value": "400"
@@ -63,7 +63,7 @@
             "$value": "{basis.color.default.color-document}"
           },
           "font-size": {
-            "$value": "{owc.typography.font-size.xl}"
+            "$value": "{basis.text.font-size.xl}"
           },
           "font-weight": {
             "$value": "700"
@@ -77,7 +77,7 @@
             "$value": "{owc.color.primary}"
           },
           "font-size": {
-            "$value": "{owc.typography.font-size.xl}"
+            "$value": "{basis.text.font-size.xl}"
           },
           "font-weight": {
             "$value": "700"
@@ -216,7 +216,7 @@
           "$value": "{basis.color.disabled.border-default}"
         },
         "color": {
-          "$value": "#343a40"
+          "$value": "{basis.color.default.color-default}"
         }
       },
       "warning": {

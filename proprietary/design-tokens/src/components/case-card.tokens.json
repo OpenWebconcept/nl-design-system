@@ -14,7 +14,7 @@
     },
     "case-card": {
       "action-active-color": {
-        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+        "$value": "{owc.color.primary}"
       },
       "action-color": {
         "$value": "{owc.color.primary}"
@@ -23,10 +23,10 @@
         "$value": "{basis.color.default.color-subtle}"
       },
       "archived-background-background-color": {
-        "$value": "#f2f2f2"
+        "$value": "{basis.color.default.bg-subtle}"
       },
       "archived-background-color": {
-        "$value": "#d1d1d1"
+        "$value": "{basis.color.default.bg-subtle}"
       },
       "archived-color": {
         "$value": "{basis.color.default.color-subtle}"
@@ -38,26 +38,32 @@
         "$value": "{basis.color.default.color-subtle}"
       },
       "archived-title-color": {
-        "$value": "{basis.color.default.color-document}"
+        "$value": "{basis.color.default.color-default}"
       },
       "background-background-color": {
         "$value": "color-mix(in srgb, {owc.color.primary} 10%, #ffffff)"
       },
       "background-color": {
-        "$value": "color-mix(in srgb, {owc.color.primary} 30%, #ffffff)"
+        "$value": "{owc.color.primary}"
+      },
+      "background-hover-background-color": {
+        "$value": "color-mix(in srgb, {owc.color.primary} 10%, #ffffff)"
+      },
+      "border-color": {
+        "$value": "transparent"
       },
       "border-radius": {
-        "$value": "3px"
+        "$value": "0"
       },
       "context-color": {
-        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 50%)"
+        "$value": "{basis.color.default.color-document}"
       },
       "height": {
-        "$value": "240px"
+        "$value": "200px"
       },
       "list": {
         "background-hover-background-color": {
-          "$value": "#f2f2f2"
+          "$value": "{basis.color.default.bg-subtle}"
         },
         "border-color": {
           "$value": "{basis.color.default.border-default}"
@@ -105,55 +111,58 @@
         }
       },
       "padding-block-start": {
-        "$value": "20px"
+        "$value": "1.5rem"
       },
       "paper-color": {
         "$value": "#ffffff"
       },
       "subtitle-color": {
-        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 50%)"
+        "$value": "{basis.color.default.color-document}"
       },
       "subtitle-font-family": {
         "$value": "{owc.typography.font-family.sans}"
       },
       "subtitle-font-size": {
-        "$value": "{owc.typography.font-size.xl}"
+        "$value": "{basis.text.font-size.md}"
       },
       "subtitle-font-weight": {
-        "$value": "500"
+        "$value": "400"
       },
       "subtitle-line-height": {
-        "$value": "1.5"
+        "$value": "1.4"
       },
       "subtitle-margin-block-start": {
         "$value": "4px"
       },
       "title-color": {
-        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 60%)"
+        "$value": "{basis.color.default.color-document}"
       },
       "title-font-family": {
         "$value": "{owc.typography.font-family.sans}"
       },
       "title-font-size": {
-        "$value": "1.5rem"
+        "$value": "{basis.text.font-size.2xl}"
       },
       "title-font-weight": {
-        "$value": "600"
+        "$value": "700"
       },
       "title-line-height": {
-        "$value": "1.5"
+        "$value": "1.3"
+      },
+      "wrapper-gap": {
+        "$value": "1rem"
       },
       "wrapper-padding-block-end": {
-        "$value": "24px"
+        "$value": "1.5rem"
       },
       "wrapper-padding-block-start": {
-        "$value": "12px"
+        "$value": "1.5rem"
       },
       "wrapper-padding-inline-end": {
-        "$value": "24px"
+        "$value": "1.5rem"
       },
       "wrapper-padding-inline-start": {
-        "$value": "24px"
+        "$value": "1.5rem"
       }
     },
     "color": {

@@ -5,19 +5,22 @@
         "$value": "1px"
       },
       "border-radius": {
-        "$value": "4px"
+        "$value": "5px"
       },
       "padding-block": {
-        "$value": ".7rem"
+        "$value": "0.75em"
       },
       "padding-inline": {
-        "$value": "1.2rem"
+        "$value": "1.25em"
       },
       "font-size": {
-        "$value": "16px"
+        "$value": "{owc.typography.font-size.base}"
       },
       "font-weight": {
-        "$value": "600"
+        "$value": "400"
+      },
+      "line-height": {
+        "$value": "1.375"
       }
     }
   }

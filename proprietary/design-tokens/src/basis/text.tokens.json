@@ -1,0 +1,26 @@
+{
+  "basis": {
+    "text": {
+      "font-size": {
+        "md": {
+          "$value": "{owc.typography.font-size.base}"
+        },
+        "lg": {
+          "$value": "{owc.typography.font-size.xl}"
+        },
+        "xl": {
+          "$value": "clamp(0.9832rem, 0.8658rem + 0.5006vw, 1.21rem)"
+        },
+        "2xl": {
+          "$value": "clamp(1.0421rem, 0.8927rem + 0.6375vw, 1.331rem)"
+        },
+        "3xl": {
+          "$value": "clamp(1.1709rem, 0.9436rem + 0.9701vw, 1.6105rem)"
+        },
+        "4xl": {
+          "$value": "clamp(1.567rem, 1.0359rem + 2.2659vw, 2.5937rem)"
+        }
+      }
+    }
+  }
+}
