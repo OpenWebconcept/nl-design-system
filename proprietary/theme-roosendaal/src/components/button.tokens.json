@@ -1,0 +1,21 @@
+{
+  "owc": {
+    "button": {
+      "border-radius": {
+        "$value": "0.375rem"
+      },
+      "font-size": {
+        "$value": "clamp(0.938rem, 0.804rem + 0.357vw, 1.125rem)"
+      },
+      "font-weight": {
+        "$value": "500"
+      },
+      "padding-block": {
+        "$value": "1.35em"
+      },
+      "padding-inline": {
+        "$value": "1.77em"
+      }
+    }
+  }
+}

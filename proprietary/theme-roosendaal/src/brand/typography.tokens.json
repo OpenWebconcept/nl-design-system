@@ -1,0 +1,27 @@
+{
+  "owc": {
+    "typography": {
+      "font-family": {
+        "sans": {
+          "$value": "museo-sans, sans-serif"
+        }
+      },
+      "font-size": {
+        "sm": {
+          "$value": "clamp(0.875rem, 0.786rem + 0.238vw, 1rem)"
+        },
+        "base": {
+          "$value": "clamp(0.875rem, 0.696rem + 0.476vw, 1.125rem)"
+        },
+        "lg": {
+          "$value": "clamp(0.875rem, 0.607rem + 0.714vw, 1.25rem)"
+        }
+      },
+      "line-height": {
+        "base": {
+          "$value": "1.55"
+        }
+      }
+    }
+  }
+}
