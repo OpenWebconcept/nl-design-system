@@ -6,6 +6,10 @@ This design system is based on the NL Design System architecture.
 
 For more info about the NL Design System and learn about things happening in our open source community, join the `#nl-design-system` Slack via [praatmee.codefor.nl](https://praatmee.codefor.nl)!
 
+## Themes
+
+The design tokens and the municipality themes live in [`proprietary/`](proprietary/). Read [the manual (in Dutch)](proprietary/README.md) to add a new municipality theme.
+
 ## Code of Conduct
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community. Read [our Code of Conduct](CODE_OF_CONDUCT.md) if you haven't already.
