@@ -8,7 +8,7 @@
         "$value": "{basis.color.default.color-document}"
       },
       "caption-font-family": {
-        "$value": "{owc.typography.font-family.sans}"
+        "$value": "{basis.text.font-family.default}"
       },
       "caption-font-size": {
         "$value": "{basis.text.font-size.3xl}"
@@ -32,10 +32,10 @@
         "$value": "0.5em"
       },
       "font-family": {
-        "$value": "{owc.typography.font-family.sans}"
+        "$value": "{basis.text.font-family.default}"
       },
       "font-size": {
-        "$value": "{owc.typography.font-size.base}"
+        "$value": "{basis.text.font-size.md}"
       },
       "font-weight": {
         "$value": "400"

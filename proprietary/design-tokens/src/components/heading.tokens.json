@@ -6,7 +6,7 @@
           "$value": "{basis.color.default.color-document}"
         },
         "font-family": {
-          "$value": "{owc.typography.font-family.sans}"
+          "$value": "{basis.text.font-family.default}"
         },
         "font-size": {
           "$value": "{basis.text.font-size.4xl}"
@@ -29,7 +29,7 @@
           "$value": "{basis.color.default.color-document}"
         },
         "font-family": {
-          "$value": "{owc.typography.font-family.sans}"
+          "$value": "{basis.text.font-family.default}"
         },
         "font-size": {
           "$value": "{basis.text.font-size.3xl}"
@@ -52,7 +52,7 @@
           "$value": "{basis.color.default.color-document}"
         },
         "font-family": {
-          "$value": "{owc.typography.font-family.sans}"
+          "$value": "{basis.text.font-family.default}"
         },
         "font-size": {
           "$value": "{basis.text.font-size.2xl}"
@@ -75,7 +75,7 @@
           "$value": "{basis.color.default.color-document}"
         },
         "font-family": {
-          "$value": "{owc.typography.font-family.sans}"
+          "$value": "{basis.text.font-family.default}"
         },
         "font-size": {
           "$value": "{basis.text.font-size.xl}"
@@ -98,7 +98,7 @@
           "$value": "{basis.color.default.color-document}"
         },
         "font-family": {
-          "$value": "{owc.typography.font-family.sans}"
+          "$value": "{basis.text.font-family.default}"
         },
         "font-size": {
           "$value": "{basis.text.font-size.lg}"
@@ -121,7 +121,7 @@
           "$value": "{basis.color.default.color-document}"
         },
         "font-family": {
-          "$value": "{owc.typography.font-family.sans}"
+          "$value": "{basis.text.font-family.default}"
         },
         "font-size": {
           "$value": "{basis.text.font-size.md}"

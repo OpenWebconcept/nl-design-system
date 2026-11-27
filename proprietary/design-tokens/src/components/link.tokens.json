@@ -11,13 +11,13 @@
         "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
       },
       "focus-outline-color": {
-        "$value": "{owc.color.primary}"
+        "$value": "{basis.focus.outline-color}"
       },
       "focus-outline-style": {
-        "$value": "{owc.focus.outline-style}"
+        "$value": "{basis.focus.outline-style}"
       },
       "focus-outline-width": {
-        "$value": "{owc.focus.outline-width}"
+        "$value": "{basis.focus.outline-width}"
       },
       "hover-color": {
         "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"

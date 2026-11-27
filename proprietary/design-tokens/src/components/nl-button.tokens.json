@@ -2,7 +2,7 @@
   "nl": {
     "button": {
       "border-radius": { "$value": "{owc.button.border-radius}" },
-      "font-family": { "$value": "{owc.typography.font-family.sans}" },
+      "font-family": { "$value": "{basis.text.font-family.default}" },
       "padding-block-start": { "$value": "{owc.button.padding-block}" },
       "padding-block-end": { "$value": "{owc.button.padding-block}" },
       "padding-inline-start": { "$value": "{owc.button.padding-inline}" },

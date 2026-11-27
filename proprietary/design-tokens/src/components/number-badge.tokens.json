@@ -17,10 +17,10 @@
         "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
       },
       "font-family": {
-        "$value": "{owc.typography.font-family.sans}"
+        "$value": "{basis.text.font-family.default}"
       },
       "font-size": {
-        "$value": "{owc.typography.font-size.sm}"
+        "$value": "{basis.text.font-size.sm}"
       },
       "font-weight": {
         "$value": "700"

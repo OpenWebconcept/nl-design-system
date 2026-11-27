@@ -21,10 +21,10 @@
           "$value": "{owc.color.primary}"
         },
         "font-family": {
-          "$value": "{owc.typography.font-family.sans}"
+          "$value": "{basis.text.font-family.default}"
         },
         "font-size": {
-          "$value": "{owc.typography.font-size.base}"
+          "$value": "{basis.text.font-size.md}"
         },
         "font-weight": {
           "$value": "500"
@@ -50,7 +50,7 @@
           "$value": "1.5"
         },
         "outline": {
-          "$value": "{owc.focus.outline-width} {owc.focus.outline-style} {owc.color.primary}"
+          "$value": "{basis.focus.outline-width} {basis.focus.outline-style} {basis.focus.outline-color}"
         },
         "padding-block-end": {
           "$value": "0.75rem"
@@ -66,7 +66,7 @@
         },
         "panel": {
           "outline": {
-            "$value": "{owc.focus.outline-width} {owc.focus.outline-style} {owc.color.primary}"
+            "$value": "{basis.focus.outline-width} {basis.focus.outline-style} {basis.focus.outline-color}"
           },
           "padding-block-end": {
             "$value": "0"

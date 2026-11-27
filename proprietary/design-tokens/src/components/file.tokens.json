@@ -14,13 +14,13 @@
         "$value": "1px"
       },
       "focus-outline-color": {
-        "$value": "{owc.color.primary}"
+        "$value": "{basis.focus.outline-color}"
       },
       "focus-outline-style": {
-        "$value": "{owc.focus.outline-style}"
+        "$value": "{basis.focus.outline-style}"
       },
       "focus-outline-width": {
-        "$value": "{owc.focus.outline-width}"
+        "$value": "{basis.focus.outline-width}"
       },
       "hover-color": {
         "$value": "{owc.color.primary}"
