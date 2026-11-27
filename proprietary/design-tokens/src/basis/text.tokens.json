@@ -1,0 +1,26 @@
+{
+  "basis": {
+    "text": {
+      "font-size": {
+        "md": {
+          "$value": "{owc.typography.font-size.base}"
+        },
+        "lg": {
+          "$value": "{owc.typography.font-size.lg}"
+        },
+        "xl": {
+          "$value": "{owc.typography.font-size.xl}"
+        },
+        "2xl": {
+          "$value": "{owc.typography.font-size.2xl}"
+        },
+        "3xl": {
+          "$value": "{owc.typography.font-size.3xl}"
+        },
+        "4xl": {
+          "$value": "{owc.typography.font-size.4xl}"
+        }
+      }
+    }
+  }
+}

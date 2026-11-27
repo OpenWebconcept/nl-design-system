@@ -23,40 +23,40 @@
         "$value": "{owc.focus.outline-width}"
       },
       "hover-color": {
-        "$value": "color-mix(in srgb, {owc.color.primary}, #000000 25%)"
+        "$value": "{owc.color.primary}"
       },
       "left-background-color": {
-        "$value": "#f9f8f6"
+        "$value": "{basis.color.default.bg-default}"
       },
       "left-padding-inline-end": {
-        "$value": "12px"
+        "$value": "0.75rem"
       },
       "left-padding-inline-start": {
-        "$value": "12px"
+        "$value": "0.75rem"
       },
       "link-color": {
         "$value": "{owc.color.primary}"
       },
       "link-gap": {
-        "$value": "4px"
+        "$value": "0.5em"
       },
       "link-icon-width": {
-        "$value": "20px"
+        "$value": "1.5em"
       },
       "right-gap": {
-        "$value": "8px"
+        "$value": "1em"
       },
       "right-padding-block-end": {
-        "$value": "12px"
+        "$value": "0.75rem"
       },
       "right-padding-block-start": {
-        "$value": "12px"
+        "$value": "0.75rem"
       },
       "right-padding-inline-end": {
-        "$value": "12px"
+        "$value": "0.75rem"
       },
       "right-padding-inline-start": {
-        "$value": "12px"
+        "$value": "0.75rem"
       }
     }
   }

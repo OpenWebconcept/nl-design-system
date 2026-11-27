@@ -1,19 +1,4 @@
 {
-  "basis": {
-    "text": {
-      "font-size": {
-        "lg": {
-          "$value": "{owc.typography.font-size.xl}"
-        },
-        "md": {
-          "$value": "{owc.typography.font-size.base}"
-        },
-        "xl": {
-          "$value": "1.25rem"
-        }
-      }
-    }
-  },
   "denhaag": {
     "button": {
       "border-radius": {

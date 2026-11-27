@@ -2,22 +2,34 @@
   "basis": {
     "color": {
       "default": {
+        "bg-default": {
+          "$value": "#e5e7eb"
+        },
+        "bg-subtle": {
+          "$value": "#f3f4f6"
+        },
         "border-default": {
-          "$value": "#d1d1d1"
+          "$value": "#d1d5dc"
+        },
+        "color-default": {
+          "$value": "#364153"
         },
         "color-document": {
           "$value": "#000000"
         },
+        "color-hover": {
+          "$value": "#1e2939"
+        },
         "color-subtle": {
-          "$value": "#4a4a4a"
+          "$value": "#4a5565"
         }
       },
       "disabled": {
         "bg-default": {
-          "$value": "#ced4da"
+          "$value": "#d1d5dc"
         },
         "border-default": {
-          "$value": "#ced4da"
+          "$value": "#d1d5dc"
         },
         "color-default": {
           "$value": "#6c757d"
@@ -48,16 +60,16 @@
           "$value": "#ffd9d6"
         },
         "border-default": {
-          "$value": "#cf1b07"
+          "$value": "#c10007"
         },
         "color-default": {
-          "$value": "#cf1b07"
+          "$value": "#c10007"
         },
         "color-document": {
           "$value": "#520100"
         },
         "inverse-bg-default": {
-          "$value": "#cf1b07"
+          "$value": "#c10007"
         },
         "inverse-bg-hover": {
           "$value": "#a30500"

@@ -11,25 +11,25 @@
         "$value": "{owc.typography.font-family.sans}"
       },
       "caption-font-size": {
-        "$value": "1.5rem"
+        "$value": "{basis.text.font-size.3xl}"
       },
       "caption-font-weight": {
         "$value": "700"
       },
       "caption-line-height": {
-        "$value": "1.3"
+        "$value": "1.5"
       },
       "caption-margin-block-end": {
-        "$value": "24px"
+        "$value": "0.5em"
       },
       "color": {
-        "$value": "{basis.color.default.color-subtle}"
+        "$value": "{basis.color.default.color-default}"
       },
       "detail-padding-block-end": {
-        "$value": "12px"
+        "$value": "0.5em"
       },
       "detail-padding-block-start": {
-        "$value": "4px"
+        "$value": "0.5em"
       },
       "font-family": {
         "$value": "{owc.typography.font-family.sans}"
@@ -40,38 +40,47 @@
       "font-weight": {
         "$value": "400"
       },
+      "item-first-column-width": {
+        "$value": "240px"
+      },
       "lg-detail-padding-block-end": {
-        "$value": "16px"
+        "$value": "0.75em"
       },
       "lg-detail-padding-block-start": {
-        "$value": "16px"
+        "$value": "0.75em"
       },
       "lg-padding-inline-end": {
-        "$value": "16px"
+        "$value": "0.75em"
       },
       "lg-padding-inline-start": {
-        "$value": "16px"
+        "$value": "0.75em"
       },
       "lg-title-padding-block-end": {
-        "$value": "16px"
+        "$value": "0.75em"
       },
       "lg-title-padding-block-start": {
-        "$value": "16px"
+        "$value": "0.75em"
       },
       "line-height": {
         "$value": "1.5"
       },
       "margin-block-end": {
-        "$value": "0"
+        "$value": "1em"
       },
       "margin-block-start": {
         "$value": "0"
       },
+      "overflow-wrap": {
+        "$value": "break-word"
+      },
+      "padding": {
+        "$value": "0.5em"
+      },
       "padding-inline-end": {
-        "$value": "8px"
+        "$value": "0.5em"
       },
       "padding-inline-start": {
-        "$value": "8px"
+        "$value": "0.5em"
       },
       "title-color": {
         "$value": "{basis.color.default.color-document}"
@@ -80,10 +89,10 @@
         "$value": "700"
       },
       "title-padding-block-end": {
-        "$value": "4px"
+        "$value": "0.5em"
       },
       "title-padding-block-start": {
-        "$value": "12px"
+        "$value": "0.5em"
       }
     }
   }
