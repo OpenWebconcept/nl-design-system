@@ -1,0 +1,9 @@
+{
+  "owc": {
+    "focus": {
+      "outline-style": {
+        "$value": "dashed"
+      }
+    }
+  }
+}
