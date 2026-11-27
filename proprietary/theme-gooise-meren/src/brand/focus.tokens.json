@@ -1,0 +1,16 @@
+{
+  "basis": {
+    "focus": {
+      "outline-color": {
+        "$value": "#441d42"
+      }
+    }
+  },
+  "owc": {
+    "focus": {
+      "outline-style": {
+        "$value": "dashed"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "nl": {
+    "button": {
+      "primary": {
+        "hover": {
+          "background-color": { "$value": "#441d42" },
+          "border-color": { "$value": "#441d42" }
+        },
+        "active": {
+          "background-color": { "$value": "#441d42" },
+          "border-color": { "$value": "#441d42" }
+        }
+      },
+      "focus": {
+        "background-color": { "$value": "#441d42" },
+        "border-color": { "$value": "#441d42" }
+      }
+    }
+  }
+}
