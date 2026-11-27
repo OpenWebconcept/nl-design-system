@@ -5,6 +5,22 @@
         "sans": {
           "$value": "Ubuntu, sans-serif"
         }
+      },
+      "font-size": {
+        "sm": {
+          "$value": "0.875rem"
+        },
+        "base": {
+          "$value": "1rem"
+        },
+        "lg": {
+          "$value": "clamp(1.1rem, 1.0483rem + 0.2207vw, 1.2rem)"
+        }
+      },
+      "line-height": {
+        "base": {
+          "$value": "1.75"
+        }
       }
     }
   }

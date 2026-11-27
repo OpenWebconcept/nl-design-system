@@ -1,7 +1,6 @@
 {
   "nl": {
     "button": {
-      "border-radius": { "$value": "0px" },
       "default": {
         "hover": {
           "background-color": { "$value": "#c60e13" },
