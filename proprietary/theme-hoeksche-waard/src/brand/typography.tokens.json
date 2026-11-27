@@ -13,7 +13,7 @@
         "base": {
           "$value": "clamp(0.875rem, 0.8103rem + 0.2759vw, 1.1rem)"
         },
-        "xl": {
+        "lg": {
           "$value": "clamp(0.9275rem, 0.8383rem + 0.3807vw, 1.2rem)"
         }
       }

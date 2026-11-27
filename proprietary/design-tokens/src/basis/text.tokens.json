@@ -6,19 +6,19 @@
           "$value": "{owc.typography.font-size.base}"
         },
         "lg": {
-          "$value": "{owc.typography.font-size.xl}"
+          "$value": "{owc.typography.font-size.lg}"
         },
         "xl": {
-          "$value": "clamp(0.9832rem, 0.8658rem + 0.5006vw, 1.21rem)"
+          "$value": "{owc.typography.font-size.xl}"
         },
         "2xl": {
-          "$value": "clamp(1.0421rem, 0.8927rem + 0.6375vw, 1.331rem)"
+          "$value": "{owc.typography.font-size.2xl}"
         },
         "3xl": {
-          "$value": "clamp(1.1709rem, 0.9436rem + 0.9701vw, 1.6105rem)"
+          "$value": "{owc.typography.font-size.3xl}"
         },
         "4xl": {
-          "$value": "clamp(1.567rem, 1.0359rem + 2.2659vw, 2.5937rem)"
+          "$value": "{owc.typography.font-size.4xl}"
         }
       }
     }

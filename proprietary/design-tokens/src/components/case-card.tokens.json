@@ -46,9 +46,6 @@
       "background-color": {
         "$value": "{owc.color.primary}"
       },
-      "background-hover-background-color": {
-        "$value": "color-mix(in srgb, {owc.color.primary} 10%, #ffffff)"
-      },
       "border-color": {
         "$value": "transparent"
       },
@@ -87,7 +84,7 @@
           "$value": "{basis.color.default.color-document}"
         },
         "title-font-size": {
-          "$value": "{owc.typography.font-size.xl}"
+          "$value": "{owc.typography.font-size.lg}"
         },
         "wrapper": {
           "flex-direction": {
