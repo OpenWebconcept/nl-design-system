@@ -16,6 +16,11 @@
         "lg": {
           "$value": "clamp(0.9275rem, 0.8383rem + 0.3807vw, 1.2rem)"
         }
+      },
+      "line-height": {
+        "base": {
+          "$value": "1.7"
+        }
       }
     }
   }
