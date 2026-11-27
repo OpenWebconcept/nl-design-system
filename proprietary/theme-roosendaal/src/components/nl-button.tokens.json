@@ -1,0 +1,21 @@
+{
+  "nl": {
+    "button": {
+      "primary": {
+        "background-color": { "$value": "#f9b000" },
+        "border-color": { "$value": "#f9b000" },
+        "color": { "$value": "#000000" },
+        "hover": {
+          "background-color": { "$value": "#e8a200" },
+          "border-color": { "$value": "#e8a200" },
+          "color": { "$value": "#000000" }
+        },
+        "active": {
+          "background-color": { "$value": "#e8a200" },
+          "border-color": { "$value": "#e8a200" },
+          "color": { "$value": "#000000" }
+        }
+      }
+    }
+  }
+}
