@@ -1,0 +1,9 @@
+{
+  "denhaag": {
+    "button": {
+      "font-family": {
+        "$value": "\"Roboto Slab\", serif"
+      }
+    }
+  }
+}

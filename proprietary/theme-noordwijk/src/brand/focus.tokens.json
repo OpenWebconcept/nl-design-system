@@ -1,0 +1,9 @@
+{
+  "owc": {
+    "focus": {
+      "outline-offset": {
+        "$value": "4px"
+      }
+    }
+  }
+}
