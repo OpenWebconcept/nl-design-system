@@ -49,6 +49,7 @@
   "scripts": {
     "build": "pnpm --recursive run build",
     "clean": "pnpm --recursive run clean",
+    "create-theme": "node scripts/create-theme.mjs",
     "lint": "pnpm run --sequential '/^lint:.+$/'",
     "lint:css": "stylelint --allow-empty-input '**/*.{css,scss}'",
     "lint:js": "eslint",
