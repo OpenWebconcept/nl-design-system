@@ -1,0 +1,14 @@
+{
+  "denhaag": {
+    "button": {
+      "primary-action": {
+        "background-color": {
+          "$value": "#2f881b"
+        },
+        "hover-background-color": {
+          "$value": "#246815"
+        }
+      }
+    }
+  }
+}
