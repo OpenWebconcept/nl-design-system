@@ -5,6 +5,22 @@
         "sans": {
           "$value": "Roboto, sans-serif"
         }
+      },
+      "font-size": {
+        "sm": {
+          "$value": "0.9567rem"
+        },
+        "base": {
+          "$value": "clamp(0.9567rem, 0.9017rem + 0.2346vw, 1.063rem)"
+        },
+        "lg": {
+          "$value": "1.11615rem"
+        }
+      },
+      "line-height": {
+        "base": {
+          "$value": "1.7"
+        }
       }
     }
   }
