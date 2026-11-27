@@ -1,0 +1,24 @@
+{
+  "owc": {
+    "button": {
+      "border-radius": {
+        "$value": "7px"
+      },
+      "font-size": {
+        "$value": "1.063rem"
+      },
+      "font-weight": {
+        "$value": "700"
+      },
+      "padding-block": {
+        "$value": "0.7rem"
+      },
+      "padding-inline": {
+        "$value": "1.2rem"
+      },
+      "line-height": {
+        "$value": "1.7"
+      }
+    }
+  }
+}
