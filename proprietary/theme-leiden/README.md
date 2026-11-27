@@ -15,9 +15,9 @@ The values were measured on [gemeente.leiden.nl](https://gemeente.leiden.nl/) (t
 | `owc.button.*`                    | radius 5px, padding 0.8em 1.2em, 1rem, weight 700 | buttons                             |
 | `owc.focus.outline-offset`        | 0.3em                                             | the focus outline                   |
 | `denhaag.button.primary-action.*` | `#d62410`, hover `#a91c09`                        | the primary (red) button            |
-| `nl.button.primary.*`             | `#d62410`, hover and active `#a91c09`             | the primary (red) button            |
+| `nl.button.*`                     | `#d62410`, hover, active and focus `#a91c09`      | the primary (red) button            |
 
-There are two existing sets: the [Leiden tokens in the NL Design System themes repository](https://github.com/nl-design-system/themes/tree/main/proprietary/leiden-design-tokens) and the [Conduction set](https://github.com/ConductionNL/conduction-theme/tree/main/municipalities/leiden-design-tokens). They disagree: the NL Design System set uses Poppins for headings and the blue `#035989` for links, the Conduction set uses red `#d62410` for both links and buttons. The website uses Open Sans everywhere (no Poppins), blue links and red buttons, so the website is the source here. The colour values match the palette of both sets.
+There are two existing sets: the [Leiden tokens in the NL Design System themes repository](https://github.com/nl-design-system/themes/tree/main/proprietary/leiden-design-tokens) and the [Conduction set](https://github.com/ConductionNL/conduction-theme/tree/main/municipalities/leiden-design-tokens). They disagree: the NL Design System set uses Poppins for headings and the blue `#035989` for links, the Conduction set uses red `#d62410` for both links and buttons. The website uses Open Sans everywhere (no Poppins), blue links and red buttons, so the website is the source here. The red `#d62410` matches the Conduction set and the blue `#035989` the NL Design System set; the Conduction set has a slightly different blue (`#035688`).
 
 Deliberate differences from the website:
 
