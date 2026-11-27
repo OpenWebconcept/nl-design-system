@@ -8,10 +8,18 @@
       },
       "font-size": {
         "sm": {
-          "$value": "clamp(0.875rem, 0.8103rem + 0.2759vw, 1rem)"
+          "$value": "0.9567rem"
         },
         "base": {
-          "$value": "clamp(0.875rem, 0.778rem + 0.4138vw, 1.0625rem)"
+          "$value": "clamp(0.9567rem, 0.8553rem + 0.4328vw, 1.063rem)"
+        },
+        "lg": {
+          "$value": "1.1693rem"
+        }
+      },
+      "line-height": {
+        "base": {
+          "$value": "1.7"
         }
       }
     }
