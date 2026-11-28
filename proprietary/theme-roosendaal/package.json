@@ -9,7 +9,6 @@
     "design-tokens",
     "roosendaal"
   ],
-  "private": true,
   "publishConfig": {
     "access": "public"
   },

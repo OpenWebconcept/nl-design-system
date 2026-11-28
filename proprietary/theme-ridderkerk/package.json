@@ -9,7 +9,6 @@
     "design-tokens",
     "ridderkerk"
   ],
-  "private": true,
   "publishConfig": {
     "access": "public"
   },

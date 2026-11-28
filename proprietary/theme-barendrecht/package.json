@@ -9,7 +9,6 @@
     "design-tokens",
     "barendrecht"
   ],
-  "private": true,
   "publishConfig": {
     "access": "public"
   },

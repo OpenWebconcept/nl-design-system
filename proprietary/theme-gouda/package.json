@@ -9,7 +9,6 @@
     "design-tokens",
     "gouda"
   ],
-  "private": true,
   "publishConfig": {
     "access": "public"
   },

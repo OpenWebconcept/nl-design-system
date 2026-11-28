@@ -9,7 +9,6 @@
     "design-tokens",
     "hoeksche-waard"
   ],
-  "private": true,
   "publishConfig": {
     "access": "public"
   },

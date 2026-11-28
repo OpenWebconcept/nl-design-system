@@ -9,7 +9,6 @@
     "design-tokens",
     "noordwijk"
   ],
-  "private": true,
   "publishConfig": {
     "access": "public"
   },
