@@ -4,7 +4,7 @@ Deze map bevat de design tokens en de themes die erop gebouwd zijn:
 
 - `design-tokens`: de gedeelde standaardwaarden voor alle componenten, gepubliceerd als `@openwebconcept/design-tokens`.
 - `theme-owc`: het standaardtheme van Open Webconcept, gepubliceerd als `@openwebconcept/theme-owc`.
-- `theme-*`: één theme per gemeente. Dit zijn demothemes voor Storybook: ze zijn privé, worden niet naar npm gepubliceerd en zijn niet bedoeld voor productie. Gebruik voor productie de eigen tokenset van de gemeente (zie [Zoek de bronnen](#1-zoek-de-bronnen)).
+- `theme-*`: één theme per gemeente, gepubliceerd als `@openwebconcept/theme-<slug>`.
 
 ## Hoe een theme werkt
 
@@ -41,7 +41,7 @@ pnpm run create-theme voorbeeldstad "Voorbeeldstad"
 pnpm install
 ```
 
-Het script maakt een leeg theme aan in `proprietary/theme-voorbeeldstad/`: `package.json` (versie `0.0.0`, privé), `style-dictionary.config.json`, `src/index.scss`, `README.md` en `LICENSE.md`. De scripts, de dependencies en de build-configuratie neemt het over van `theme-owc`. Verder voegt het het theme toe aan Storybook (de devDependencies in `packages/storybook/package.json` en de imports en de theme-switcher in `packages/storybook/config/preview.ts`) en maakt het de changeset `.changeset/theme-voorbeeldstad.md` aan. `pnpm install` werkt daarna `pnpm-lock.yaml` bij.
+Het script maakt een leeg theme aan in `proprietary/theme-voorbeeldstad/`: `package.json` (versie `0.0.0`), `style-dictionary.config.json`, `src/index.scss`, `README.md` en `LICENSE.md`. De scripts, de dependencies en de build-configuratie neemt het over van `theme-owc`. Verder voegt het het theme toe aan Storybook (de devDependencies in `packages/storybook/package.json` en de imports en de theme-switcher in `packages/storybook/config/preview.ts`) en maakt het de changeset `.changeset/theme-voorbeeldstad.md` aan. `pnpm install` werkt daarna `pnpm-lock.yaml` bij.
 
 Zonder tokens toont het theme de standaardwaarden uit `design-tokens`. Met de tokens uit de volgende stappen ziet het pakket er zo uit:
 
@@ -205,7 +205,17 @@ Added the Voorbeeldstad theme, measured on voorbeeldstad.nl: the primary colour,
 
 Gebruik na de eerste release gewoon `minor` en `patch`. Changesets die `@openwebconcept/design-tokens` wijzigen, noemen alle themes; neem het nieuwe theme daar voortaan in op.
 
-Bij een release krijgen de themes een versie en een tag, maar ze worden niet naar npm gepubliceerd omdat ze privé zijn. De Storybook op GitHub Pages bouwt de themes bij elke push naar `main` vanuit de broncode, dus een gemergd theme is daar zonder release al te zien.
+Bij een release publiceert de publish-workflow het theme naar npm, via npm Trusted Publishing. Dat kan pas als het pakket al op npm staat. Laat daarom vóór de eerste release iemand met owner-rechten op de npm-organisatie `@openwebconcept` dit draaien:
+
+```bash
+npx setup-npm-trusted-publish@2.3.1 @openwebconcept/theme-voorbeeldstad \
+  --github.repo OpenWebconcept/nl-design-system \
+  --github.file publish.yml
+```
+
+Dit publiceert een lege versie `0.0.0` en geeft de publish-workflow toestemming om het pakket te publiceren. Schrijf `OpenWebconcept` met hoofdletters: npm vergelijkt de naam hoofdlettergevoelig. Die toestemming vervalt als de workflow niet binnen 2 dagen publiceert, dus doe dit pas als de release-PR klaar is om te mergen.
+
+De Storybook op GitHub Pages bouwt de themes bij elke push naar `main` vanuit de broncode, dus een gemergd theme is daar zonder release al te zien.
 
 ### 9. Open een pull request
 

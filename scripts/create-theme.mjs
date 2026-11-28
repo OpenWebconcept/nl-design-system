@@ -73,7 +73,6 @@ const themePackage = {
   description: `Design tokens for ${name} theme`,
   license: owcPackage.license,
   keywords: ['nl-design-system', 'design-tokens', slug],
-  private: true,
   publishConfig: owcPackage.publishConfig,
   repository: { ...owcPackage.repository, directory: themeDir },
   scripts: owcPackage.scripts,

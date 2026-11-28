@@ -9,7 +9,6 @@
     "design-tokens",
     "de-fryske-marren"
   ],
-  "private": true,
   "publishConfig": {
     "access": "public"
   },
