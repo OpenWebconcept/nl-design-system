@@ -12,8 +12,8 @@
     "access": "public"
   },
   "repository": {
-    "type": "git+ssh",
-    "url": "git@github.com:openwebconcept/nl-design-system.git",
+    "type": "git",
+    "url": "git+https://github.com/OpenWebconcept/nl-design-system.git",
     "directory": "proprietary/design-tokens"
   },
   "scripts": {

@@ -13,8 +13,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
-    "type": "git+ssh",
-    "url": "git@github.com:openwebconcept/nl-design-system.git",
+    "type": "git",
+    "url": "git+https://github.com/OpenWebconcept/nl-design-system.git",
     "directory": "packages/components-react"
   },
   "scripts": {
